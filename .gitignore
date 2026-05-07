@@ -6,7 +6,6 @@ node_modules/
 slides/node_modules/
 
 # Generated / build artifacts
-slides/generated/
 slides/illus_b64.json
 
 # Claude Code local config
