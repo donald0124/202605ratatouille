@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>漢他病毒防治衛教</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/white.min.css" />
+  <style>
+    :root {
+      --green-dark:  #3a4f2e;
+      --green-mid:   #5a7a45;
+      --green-light: #e8f0e2;
+      --warn:        #d94f2b;
+      --warn-bg:     #fdf1ed;
+      --accent:      #f0a500;
+      --text:        #1a1a1a;
+    }
+
+    .reveal {
+      font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      color: var(--text);
+    }
+
+    /* ── slide background ── */
+    .reveal .slides section {
+      text-align: left;
+      padding: 20px 48px;
+    }
+
+    /* ── section label strip ── */
+    .reveal .slides section .section-tag {
+      display: inline-block;
+      background: var(--green-mid);
+      color: #fff;
+      font-size: .55em;
+      font-weight: 700;
+      letter-spacing: .08em;
+      padding: 2px 12px;
+      border-radius: 2px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    /* ── slide title ── */
+    .reveal h2 {
+      font-size: 1.6em;
+      color: var(--green-dark);
+      border-left: 6px solid var(--green-mid);
+      padding-left: 14px;
+      margin: 0 0 18px;
+      line-height: 1.3;
+    }
+
+    /* ── cover slide ── */
+    .reveal .cover {
+      text-align: center;
+      padding-top: 60px !important;
+    }
+    .reveal .cover .main-title {
+      font-size: 2.2em;
+      font-weight: 900;
+      color: var(--green-dark);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .reveal .cover .sub-title {
+      font-size: 1em;
+      color: var(--green-mid);
+      margin-bottom: 40px;
+    }
+    .reveal .cover .meta {
+      font-size: .75em;
+      color: #666;
+    }
+    .reveal .cover .badge {
+      display: inline-block;
+      background: var(--green-dark);
+      color: #fff;
+      padding: 6px 22px;
+      border-radius: 20px;
+      font-size: .75em;
+      margin: 6px 4px;
+    }
+
+    /* ── progress bar colour override ── */
+    .reveal .progress span { background: var(--green-mid); }
+
+    /* ── lists ── */
+    .reveal ul, .reveal ol {
+      margin-left: 0;
+      padding-left: 1.2em;
+      font-size: .88em;
+      line-height: 1.8;
+    }
+    .reveal ul li { list-style: disc; margin-bottom: 4px; }
+
+    /* ── warning box ── */
+    .warn-box {
+      background: var(--warn-bg);
+      border-left: 5px solid var(--warn);
+      border-radius: 4px;
+      padding: 12px 16px;
+      font-size: .82em;
+      color: var(--warn);
+      font-weight: 700;
+      margin: 10px 0;
+    }
+
+    /* ── highlight box ── */
+    .hl-box {
+      background: var(--green-light);
+      border-left: 5px solid var(--green-mid);
+      border-radius: 4px;
+      padding: 10px 16px;
+      font-size: .82em;
+      margin: 10px 0;
+    }
+
+    /* ── tables ── */
+    .reveal table {
+      font-size: .78em;
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .reveal table th {
+      background: var(--green-dark);
+      color: #fff;
+      padding: 7px 12px;
+      text-align: left;
+    }
+    .reveal table td {
+      border: 1px solid #d0dac8;
+      padding: 6px 12px;
+    }
+    .reveal table tr:nth-child(even) td { background: var(--green-light); }
+
+    /* ── step list ── */
+    .steps { counter-reset: step; list-style: none; padding: 0; margin: 0; }
+    .steps li {
+      counter-increment: step;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-size: .84em;
+      line-height: 1.6;
+    }
+    .steps li::before {
+      content: counter(step);
+      min-width: 26px;
+      height: 26px;
+      background: var(--green-mid);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: .85em;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ── checklist ── */
+    .checklist { list-style: none; padding: 0; }
+    .checklist li {
+      font-size: .85em;
+      line-height: 1.8;
+      padding-left: 1.6em;
+      position: relative;
+    }
+    .checklist li::before {
+      content: '✅';
+      position: absolute;
+      left: 0;
+    }
+
+    /* ── two-col layout ── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 10px;
+    }
+    .col-card {
+      background: var(--green-light);
+      border-radius: 6px;
+      padding: 12px 14px;
+      font-size: .82em;
+    }
+    .col-card h4 {
+      margin: 0 0 6px;
+      color: var(--green-dark);
+      font-size: 1em;
+    }
+
+    /* ── stat cards (slide 2) ── */
+    .stat-row {
+      display: flex;
+      gap: 14px;
+      margin: 14px 0;
+    }
+    .stat-card {
+      flex: 1;
+      background: var(--green-dark);
+      color: #fff;
+      border-radius: 6px;
+      padding: 14px 16px;
+      text-align: center;
+    }
+    .stat-card .num { font-size: 2em; font-weight: 900; color: var(--accent); }
+    .stat-card .label { font-size: .7em; opacity: .9; }
+
+    /* ── action cards (slide 12) ── */
+    .action-row {
+      display: flex;
+      gap: 14px;
+      margin-top: 16px;
+    }
+    .action-card {
+      flex: 1;
+      border: 2px solid var(--green-mid);
+      border-radius: 8px;
+      padding: 14px 16px;
+      text-align: center;
+      font-size: .82em;
+    }
+    .action-card .icon { font-size: 1.8em; margin-bottom: 6px; }
+    .action-card strong { display: block; color: var(--green-dark); margin-bottom: 4px; }
+
+    /* ── flow chart ── */
+    .flow {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      margin: 10px 0;
+      font-size: .82em;
+    }
+    .flow-step {
+      background: var(--green-light);
+      border: 1px solid var(--green-mid);
+      border-radius: 4px;
+      padding: 7px 18px;
+      font-weight: 500;
+    }
+    .flow-arrow {
+      color: var(--green-mid);
+      font-size: 1.2em;
+      margin: 2px 18px;
+      line-height: 1;
+    }
+
+    /* ── picture placeholder ── */
+    .img-hint {
+      background: #f5f5f5;
+      border: 2px dashed #ccc;
+      border-radius: 4px;
+      padding: 8px 14px;
+      font-size: .72em;
+      color: #888;
+      margin-top: 12px;
+    }
+    .img-hint::before { content: '🖼 建議圖片：'; font-weight: 700; color: #aaa; }
+
+    /* ── slide number override ── */
+    .reveal .slide-number { color: var(--green-dark); }
+
+    /* ── footer bar ── */
+    .slide-footer {
+      position: absolute;
+      bottom: 8px;
+      left: 0;
+      right: 0;
+      padding: 0 48px;
+      font-size: .6em;
+      color: #aaa;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ── defense pillars (slide 9) ── */
+    .pillar-row { display: flex; gap: 12px; margin-top: 10px; }
+    .pillar {
+      flex: 1;
+      border-top: 4px solid var(--green-mid);
+      background: var(--green-light);
+      border-radius: 0 0 6px 6px;
+      padding: 10px 12px;
+      font-size: .78em;
+    }
+    .pillar h4 { margin: 0 0 6px; color: var(--green-dark); font-size: .95em; }
+    .pillar ul { margin: 0; padding-left: 1em; }
+  </style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ═══════════════════════════════════════
+     Slide 1 ｜ 封面
+════════════════════════════════════════ -->
+<section class="cover" data-background-color="#3a4f2e">
+  <div class="main-title" style="color:#fff;">
+    敵從鼠來
+  </div>
+  <div class="sub-title" style="color:#b8d4a0; font-size:1.3em;">
+    漢他病毒防治衛教
+  </div>
+  <div style="margin: 28px 0 20px;">
+    <span class="badge">桃園單位衛生醫療部門</span>
+    <span class="badge">2026</span>
+    <span class="badge">10–12 分鐘</span>
+  </div>
+  <div class="meta" style="color:#9ab880;">
+    報告時間請自行填入 ｜ 報告人請自行填入
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 2 ｜ 台灣疫情現況（2026 最新）
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第一段｜疫情現況與威脅</span>
+  <h2>台灣疫情現況（2026 最新）</h2>
+
+  <div class="stat-row">
+    <div class="stat-card">
+      <div class="num">2</div>
+      <div class="label">2026 年確診例數<br>（截至 5 月）</div>
+    </div>
+    <div class="stat-card">
+      <div class="num">45</div>
+      <div class="label">2017 年起累計確診數</div>
+    </div>
+    <div class="stat-card">
+      <div class="num" style="color:#f08080;">1</div>
+      <div class="label">2026 年死亡例數<br>（2000 年後首見）</div>
+    </div>
+  </div>
+
+  <ul>
+    <li>第 1 例：台北市 70 多歲男性，1 月發病，<strong style="color:var(--warn);">因敗血症併多重器官衰竭死亡</strong></li>
+    <li>第 2 例：新北市 70 多歲男性，3 月發病，治療後出院</li>
+    <li>累計病例：男性占 67%，40 歲以上占 67%</li>
+    <li>台灣屬地方性流行區，主要病毒株：漢他（Hantaan）、首爾病毒（Seoul）</li>
+  </ul>
+
+  <div class="img-hint">疾管署台灣案例分布圖，或近年趨勢折線圖</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>1 / 疫情現況</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 3 ｜ 為什麼我們要在意？
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第一段｜疫情現況與威脅</span>
+  <h2>為什麼我們要在意？</h2>
+
+  <ul>
+    <li>鼠患 ≠ 只是衛生問題，是 <strong>法定傳染病通報</strong> 問題</li>
+    <li>漢他出血熱腎症候群（HFRS）：<strong style="color:var(--warn);">致死率 1–15%</strong>，重症需加護病房</li>
+    <li>軍事場域高風險：糧食倉庫、地下設施、廢棄空間、野訓環境</li>
+  </ul>
+
+  <div class="warn-box">
+    ⚠️ 一隻鼠的排泄物，可以讓一個人住進 ICU
+  </div>
+
+  <div class="two-col" style="margin-top:14px;">
+    <div class="col-card">
+      <h4>一般環境風險</h4>
+      糧倉、廚房、廁所周邊、廢棄空間
+    </div>
+    <div class="col-card">
+      <h4>野訓特殊風險</h4>
+      搭帳篷、翻動草叢、使用舊裝備箱
+    </div>
+  </div>
+
+  <div class="img-hint">ICU 病床照片，或鼠在糧倉旁的對比圖</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>1 / 疫情現況</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 4 ｜ 傳播途徑
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第二段｜臨床識別與通報</span>
+  <h2>傳播途徑——怎麼感染的？</h2>
+
+  <div class="hl-box" style="font-size:.9em; font-weight:700;">
+    主要途徑：<strong>吸入</strong>含病毒的鼠糞、鼠尿、鼠唾液所揚起的塵埃<br>
+    ── 不是被咬才會感染
+  </div>
+
+  <ul style="margin-top:12px;">
+    <li>次要途徑：直接接觸排泄物後觸摸口鼻</li>
+    <li><strong>清掃廢棄空間、翻動舊箱物品時風險最高</strong></li>
+    <li style="color:var(--green-mid); font-weight:700;">不會人傳人（減少不必要恐慌）</li>
+  </ul>
+
+  <div style="margin-top:16px; font-size:.82em; background:var(--green-light); border-radius:6px; padding:10px 16px;">
+    傳播路徑示意：<br>
+    <span style="color:var(--green-dark); font-weight:700;">
+      鼠隻排泄物 → 乾燥揚塵 → 吸入呼吸道 → 感染
+    </span>
+  </div>
+
+  <div class="img-hint">傳播途徑示意圖（鼠→排泄物→飛揚塵埃→人），或掃地揚塵動作照</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>2 / 臨床識別與通報</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 5 ｜ 臨床症狀
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第二段｜臨床識別與通報</span>
+  <h2>臨床症狀——怎麼判斷？</h2>
+
+  <table>
+    <thead>
+      <tr><th>期別</th><th>時間</th><th>關鍵症狀</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>前驅期</strong></td>
+        <td>發病 1–4 天</td>
+        <td>突發高燒、頭痛、肌肉痠痛、眼眶痛</td>
+      </tr>
+      <tr>
+        <td><strong>出血／低血壓期</strong></td>
+        <td>4–8 天</td>
+        <td>皮膚出血點、血壓下降、少尿</td>
+      </tr>
+      <tr>
+        <td><strong>多尿／恢復期</strong></td>
+        <td>1–2 週</td>
+        <td>腎功能逐漸恢復</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="warn-box" style="margin-top:16px;">
+    ⚠️ 關鍵警示：有鼠接觸史 + 發燒 + 血小板低下 = 高度懷疑
+  </div>
+
+  <div class="img-hint">皮膚出血點（petechiae）臨床照片，或症狀時間軸圖</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>2 / 臨床識別與通報</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 6 ｜ 通報 SOP
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第二段｜臨床識別與通報</span>
+  <h2>如何通報——SOP 流程</h2>
+
+  <div style="font-size:.82em; margin-bottom:10px;">
+    法定傳染病：<strong>第三類</strong>，應於 <strong>1 週內</strong>通報
+  </div>
+
+  <div class="flow">
+    <div class="flow-step">發現疑似個案（發燒＋鼠接觸史）</div>
+    <div class="flow-arrow">▼</div>
+    <div class="flow-step">立即通知醫務所</div>
+    <div class="flow-arrow">▼</div>
+    <div class="flow-step">醫務所協助安排就醫（送醫院，非自行觀察）</div>
+    <div class="flow-arrow">▼</div>
+    <div class="flow-step">醫院通報疾管署 / 衛生局</div>
+  </div>
+
+  <div class="hl-box" style="margin-top:14px;">
+    醫務所角色：<strong>不是診斷，是啟動流程</strong>
+  </div>
+
+  <div class="img-hint">通報表單截圖，或流程箭頭圖</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>2 / 臨床識別與通報</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 7 ｜ 就醫時要說什麼？
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第二段｜臨床識別與通報</span>
+  <h2>就醫時要說什麼？</h2>
+
+  <div style="font-size:.9em; font-weight:700; margin-bottom:10px; color:var(--green-dark);">
+    就醫兩句話——給同仁帶走的實用提醒
+  </div>
+
+  <ol class="steps">
+    <li>「我最近有接觸鼠類活動場域」</li>
+    <li>「症狀：發燒第 X 天，有頭痛、肌肉痠痛」</li>
+  </ol>
+
+  <div class="two-col" style="margin-top:16px;">
+    <div class="col-card">
+      <h4>就醫地點</h4>
+      一般急診即可<br>
+      <span style="color:#888;">無需特殊傳染病門診</span>
+    </div>
+    <div class="col-card">
+      <h4>醫院會做的檢查</h4>
+      CBC（血小板）<br>
+      腎功能<br>
+      漢他病毒抗體（IgM）
+    </div>
+  </div>
+
+  <div class="hl-box" style="margin-top:14px;">
+    說清楚接觸史 → 醫師能更快排除或確診
+  </div>
+
+  <div class="img-hint">急診室入口照，或醫護問診插圖</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>2 / 臨床識別與通報</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 8 ｜ 鼠患識別
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第三段｜防疫關鍵：環境管理</span>
+  <h2>鼠患識別——知道牠在哪</h2>
+
+  <ul class="checklist">
+    <li>鼠糞（黑色小顆粒，沿牆邊分布）</li>
+    <li>咬痕（電線、紙箱、食品袋）</li>
+    <li>油脂痕跡（沿鼠行路徑的黑色油漬）</li>
+    <li>異味（濃烈鼠尿腥味，尤其密閉空間）</li>
+    <li>目視或夜間聲音</li>
+  </ul>
+
+  <div class="hl-box" style="margin-top:14px;">
+    重點場域：<strong>糧倉、廚房、廢棄倉庫、地下設施</strong>
+  </div>
+
+  <div class="warn-box">
+    ⚠️ 發現跡象 → 回報環境衛生管理單位處理（消毒滅鼠非醫務所業務）
+  </div>
+
+  <div style="font-size:.75em; color:#888; margin-top:8px;">
+    💡 互動提問：「你們單位有看過這些跡象嗎？」
+  </div>
+
+  <div class="img-hint">鼠糞特寫、油脂痕跡、被咬壞的紙箱（實際現場感）</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>3 / 環境管理</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 9 ｜ 三道防線
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第三段｜防疫關鍵：環境管理</span>
+  <h2>物理防治——三道防線</h2>
+
+  <div class="pillar-row">
+    <div class="pillar">
+      <h4>第一道｜阻絕</h4>
+      <ul>
+        <li>封堵 &gt; 6mm 的縫隙<br>（鐵絲網、水泥補縫）</li>
+        <li>門縫加裝門掃</li>
+      </ul>
+    </div>
+    <div class="pillar">
+      <h4>第二道｜清除</h4>
+      <ul>
+        <li>食物密封儲存</li>
+        <li>垃圾當日清除</li>
+        <li>清除草叢、廢棄紙箱</li>
+      </ul>
+    </div>
+    <div class="pillar">
+      <h4>第三道｜捕殺</h4>
+      <ul>
+        <li>捕鼠夾優先<br>（可確認捕獲）</li>
+        <li>滅鼠藥需記錄、標示、專人管理</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hl-box" style="margin-top:14px; font-size:.82em;">
+    以上作業由環境衛生管理單位負責，<strong>醫務所提供諮詢與防護物資</strong>
+  </div>
+
+  <div class="img-hint">捕鼠夾擺放示範圖、封堵縫隙施工照</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>3 / 環境管理</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 10 ｜ 清理鼠患現場
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第三段｜防疫關鍵：環境管理</span>
+  <h2>清理鼠患現場——最危險的環節</h2>
+
+  <div class="warn-box">
+    ⚠️ 乾掃、用嘴吹氣 = 最危險（揚起含病毒塵埃）
+  </div>
+
+  <ol class="steps" style="margin-top:12px;">
+    <li><strong>先通風</strong>：開窗 30 分鐘以上再進入</li>
+    <li><strong>穿戴防護</strong>：外科口罩＋手套，避免觸摸臉</li>
+    <li><strong>噴濕消毒</strong>：含氯漂白水（1:10）噴濕鼠糞，靜置 5 分鐘</li>
+    <li><strong>擦拭清除</strong>：紙巾擦起後密封丟棄</li>
+    <li><strong>脫手套後立即洗手</strong></li>
+  </ol>
+
+  <div class="hl-box" style="margin-top:12px; font-size:.82em;">
+    清理人員事後 <strong>1–8 週內若發燒</strong>，需主動告知醫務所
+  </div>
+
+  <div class="img-hint">外科口罩＋手套裝備示範、漂白水配製說明（1:10 比例標示）</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>3 / 環境管理</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 11 ｜ 醫務所能幫你什麼？
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">第四段｜資源與應變流程</span>
+  <h2>醫務所能幫你什麼？</h2>
+
+  <table>
+    <thead>
+      <tr><th>情境</th><th>找誰處理</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>發現鼠跡、鼠患</td>
+        <td><strong>環境衛生管理單位</strong>（滅鼠）</td>
+      </tr>
+      <tr>
+        <td>有人發燒懷疑感染</td>
+        <td><strong>醫務所</strong></td>
+      </tr>
+      <tr>
+        <td>協助轉診就醫</td>
+        <td><strong>醫務所</strong>安排交通、陪同說明接觸史</td>
+      </tr>
+      <tr>
+        <td>防護物資（口罩、手套、酒精）</td>
+        <td>可向 <strong>醫務所</strong>申請</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="hl-box" style="margin-top:14px;">
+    <strong>醫療問題找醫務所；滅鼠問題回報環境衛生單位</strong>
+  </div>
+
+  <div class="img-hint">醫務所照片，或醫護人員與同仁溝通的示意圖</div>
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>4 / 資源與應變</span></div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     Slide 12 ｜ 結語
+════════════════════════════════════════ -->
+<section>
+  <span class="section-tag">結語</span>
+  <h2>帶走三個行動</h2>
+
+  <div class="action-row">
+    <div class="action-card">
+      <div class="icon">🐀</div>
+      <strong>看到鼠跡</strong>
+      馬上回報環境衛生單位<br>
+      <span style="color:#888; font-size:.9em;">別等、別自己動手清</span>
+    </div>
+    <div class="action-card">
+      <div class="icon">🧤</div>
+      <strong>清掃前</strong>
+      先通風、先噴消毒水<br>
+      再戴口罩與手套
+    </div>
+    <div class="action-card">
+      <div class="icon">🏥</div>
+      <strong>發燒＋鼠接觸史</strong>
+      立刻就醫<br>
+      告知接觸史
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top:28px; font-size:1.2em; font-weight:900; color:var(--green-dark); border-top: 2px solid var(--green-mid); padding-top:16px;">
+    「防鼠就是防病，防病就是戰力保存」
+  </div>
+
+  <div style="text-align:center; margin-top:12px; font-size:.8em; color:#888;">
+    醫務所聯絡資訊請自行填入
+  </div>
+
+  <div class="slide-footer"><span>漢他病毒防治衛教</span><span>桃園單位衛生醫療部門</span></div>
+</section>
+
+</div><!-- /slides -->
+</div><!-- /reveal -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    center: false,
+    transition: 'slide',
+    transitionSpeed: 'fast',
+    width: 1280,
+    height: 720,
+    margin: 0.04,
+  });
+</script>
+</body>
+</html>
