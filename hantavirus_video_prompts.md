@@ -43,7 +43,19 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic documentary opening sequence. Dense undergrowth at a rural field edge at dusk, desaturated cool blue-grey color grade. Ground-level mist drifts slowly across frame from left to right. Ultra-slow dolly push-in from wide establishing shot, motivated ambient twilight with volumetric fog layers. 24mm wide cinematic lens feel, deep foreground-to-background layering with sharp foreground grass and soft distant structure. Ominous, cautionary emotional tone building in intensity. Deliberate slow pacing, near-silent oppressive atmosphere. Duration: 8 seconds.
+Cinematic documentary opening. 8-second sequence building from open landscape into tight contamination evidence:
+
+[0–2s] WIDE ESTABLISHING — vast rural field at dusk, ground-level mist drifting slowly left to right. Static shot, ominous stillness, 24mm wide lens. Ultra-slow dolly push-in begins.
+
+[2–4s] MEDIUM WIDE to LOW-ANGLE — overgrown path leading toward a darkened storage shed. Camera drops to ground level, mist swirling around grass stalks, dim structure barely visible in deep shadow ahead.
+
+[4–6s] MEDIUM APPROACH — exterior of dark cluttered storage shed, faint dim glow through wall gaps. POV slowly approaching the shed door, shadows deepening at frame edges.
+
+[6–7.5s] HIGH-ANGLE to MEDIUM CLOSE-UP — inside, looking down into dark neglected corner. Chewed cardboard box with bite marks comes into focus.
+
+[7.5–8s] EXTREME CLOSE-UP — single light beam from above illuminating rat droppings, then fresh rat footprints pressed into dusty soil. Maximum tension, camera holds.
+
+Throughout: desaturated cool blue-grey color grade, motivated ambient twilight, volumetric mist layers. 24mm wide lens expanding to 85mm for close-ups. Ominous, cautionary emotional progression from open to oppressive. Duration: 8 seconds.
 ```
 
 ---
@@ -127,7 +139,19 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic documentary macro sequence. Dusty storage room floor, dried rat droppings disturbed by a passing foot. Extreme slow-motion macro shot — dust particles lift and glow in a single dramatic overhead amber light beam. Ultra-slow upward camera tilt following the rising particles from floor level to mid-air. Deep black background, single motivated amber-gold light source, extreme shallow depth-of-field with glowing bokeh particle glow. Ominous, scientific horror emotional tone — invisible danger becoming visible. Very slow, deliberate pacing emphasizing microscopic detail. Macro lens feel. Duration: 10 seconds.
+Cinematic documentary macro sequence. 10-second slow-motion arc revealing invisible airborne danger:
+
+[0–2s] MACRO CLOSE-UP HOLD — dried rat droppings on dusty storage floor, perfectly undisturbed. Single overhead amber light beam. Camera holds perfectly still. Deep silence, maximum stillness.
+
+[2–4s] MEDIUM CLOSE-UP — shoe enters the lower frame edge. Foot accidentally brushes past the droppings. First subtle disturbance visible at the edge of the droppings.
+
+[4–6s] EXTREME CLOSE-UP MACRO — droppings begin to crumble at the edges in extreme slow-motion. Microscopic particles separate and begin lifting upward into the light beam.
+
+[6–8s] MACRO TILT UP — camera tilts slowly upward following the rising particles as they glow golden in the single overhead light beam, spiraling upward. Dense particle cloud building in the beam.
+
+[8–10s] LOW-ANGLE WIDE — camera looks up through the thick glowing particle cloud toward the light source above. The full beam column now heavy with suspended glowing particles — invisible danger fully revealed.
+
+Throughout: deep black background, single motivated amber-gold light source, macro lens feel, extreme shallow depth-of-field with glowing bokeh. Ominous, scientific horror emotional tone. Very slow deliberate pacing. Duration: 10 seconds.
 ```
 
 ---
@@ -163,7 +187,17 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic documentary drama. Asian man in his 30s, short black hair, plain grey t-shirt, collapsed on a couch in a dimly lit living room. Slow dolly push-in toward the man's sweating face, warm sickly red-orange color grade. Motivated tungsten interior lighting with heavy oppressive shadows. 85mm portrait lens feel, shallow depth-of-field isolating the subject against blurred dark background. Uncomfortable, distressing, deeply empathetic emotional tone. Slow heavy pacing. Duration: 5 seconds.
+Cinematic documentary drama. 5-second arc from wide isolation into intimate suffering, then pull back to isolation:
+
+[0–1s] MEDIUM WIDE — Asian man (30s, short black hair, grey t-shirt) sitting alone on the dim couch, slumped and visibly unwell. Slow dolly push-in begins.
+
+[1–3s] PROGRESSIVE CLOSE-UPS — pushing closer: man gripping head in pain (medium). Face soaked in sweat, eyes shut tight (close-up). Extreme close-up of sweat beads on flushed red forehead.
+
+[3–4s] VARIED ANGLE INSERTS — over-the-shoulder close-up of trembling shoulders and neck. Low-angle close-up looking up at face under harsh overhead lamp. Close-up of hand gripping stomach, knuckles whitening.
+
+[4–5s] PULL-BACK WIDE — man collapses sideways onto the couch. Camera slowly pulls back to wide: the full dim living room, man alone, isolated, vulnerable, no one to help.
+
+Throughout: warm red-orange fever color grade, dim oppressive tungsten interior lighting. 85mm portrait lens feel, shallow depth-of-field. Uncomfortable, distressing emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -199,7 +233,19 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic documentary. Doctor in white coat consulting calmly with a patient in a bright clinic examination room. Slow camera pull-back revealing the full clean clinical environment. Cool teal-white color grade with warm motivated window light from the right. 50mm standard cinematic lens feel, balanced clinical lighting with no harsh shadows. Transitioning emotional tone: from anxious urgency to calm reassurance. Deliberate, calming, measured pacing. Duration: 8 seconds.
+Cinematic documentary. 8-second arc from home emergency to clinical reassurance:
+
+[0–1.5s] HOME EXTREME CLOSE-UP — hand urgently dialing a phone in dim warm home lighting, fingers tense. Phone screen lit in darkness. Anxious amber tones, tight framing conveying urgency.
+
+[1.5–3s] WIDE CUT — bright clinic exterior entrance, open welcoming door, clean daylight. Sharp emotional contrast from the dark home scene to bright safety. Wide shot of clinic reception area, cool teal tones.
+
+[3–5s] WIDE to MEDIUM — doctor in white coat walking calmly toward camera through a well-lit corridor. Camera holds as doctor enters the examination room.
+
+[5–7s] OVER-THE-SHOULDER to CLOSE-UP — doctor consulting with seated patient (medium). Doctor's calm, attentive face listening carefully (medium close-up).
+
+[7–8s] CLOSE-UP to WIDE PULL-BACK — doctor's hands writing notes on clipboard in soft window light. Slow pull-back to full examination room — calm, organized, professional.
+
+Throughout: transitions from warm anxious amber (home) to cool reassuring teal-white (clinic). 50mm cinematic lens feel, balanced lighting. Emotional arc from urgency to calm. Duration: 8 seconds.
 ```
 
 ---
@@ -235,7 +281,17 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic drama documentary. Hopeful recovery scene. Bright golden sunlight pouring through an open window into a clean modern living room. Slow camera pan right from the window to the interior space, warm golden cinematic color grade. Motivated natural sunlight as primary source, soft reflective fill from white walls. 35mm cinematic lens feel, deep warm tones with gentle lens flare. Transitioning emotional tone: relief, release, hope, recovery. Slow breathing pacing. Duration: 8 seconds.
+Cinematic drama documentary. 8-second arc from cold hospital isolation to warm hopeful recovery:
+
+[0–2.5s] COLD HOSPITAL — close-up of IV drip in cold blue clinical light. Medium close-up of figure resting in hospital bed. High-angle looking down the clinical corridor. Cold desaturated blue-grey tones, oppressive fluorescent lighting.
+
+[2.5–4s] TURNING POINT — POV hand reaching toward a window latch. Close-up of hands pushing the window open — first burst of warm golden sunlight floods in. Lens flare moment, emotional release.
+
+[4–6s] WARM HOME WIDE — wide shot of golden sunlight flooding into a clean home interior. Medium shot of the clean living room, sunlight streaming warmly across the floor.
+
+[6–8s] RECOVERY TRACKING to WIDE — tracking medium shot of person walking confidently through a bright sunlit corridor. Slow pull-back to wide establishing shot: person at open window, golden sunlight all around, looking outward — fully recovered.
+
+Throughout: color grade transitions from cold blue-grey (hospital) to warm golden (recovery). 35mm cinematic lens feel, gentle lens flare at window. Emotional arc from isolation to relief and hope. Duration: 8 seconds.
 ```
 
 ---
@@ -273,7 +329,11 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Hands in neat sleeves sealing a wall crack — first packing steel wool then applying smooth white silicone sealant. Static camera with ultra-slow controlled push-in on the hands and the wall surface. Bright natural daylight from off-screen, high-key clean lighting with no harsh shadows. 100mm macro lens feel, tack-sharp focus on hand action, soft background bokeh. Professional, precise, methodical emotional tone. Slow deliberate pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second arc from problem identification through sealing action to clean result:
+
+Opens with wide shot of the wall corner — crack clearly visible at the floor-wall junction. Camera pushes in to medium as person crouches to examine, then close-up on the gap detail. Hands take over: packing steel wool into the crack (close-up to extreme close-up), then applying smooth white silicone sealant with slow controlled push-in. Final pull-back to wide: crack completely sealed, clean smooth white silicone finish — professional result.
+
+Bright natural daylight from off-screen, high-key clean lighting with no harsh shadows. 100mm macro lens feel on hand action, 35mm for opening and closing wide shots. Professional, precise, methodical emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -309,7 +369,11 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Hands placing and locking a fine metal mesh cover over a clean floor drain on bright white bathroom tiles. Camera stationary, slight top-down angle. Bright clean overhead lighting, cool hygienic white-blue color grade. 100mm macro lens feel, sharp on hands and mesh surface detail. Precise, clean, protective emotional tone. Slow controlled pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second arc from drain vulnerability to secured protection:
+
+Opens with wide shot then high-angle looking straight down at the open floor drain — vulnerability established. Camera holds top-down angle as hands enter frame from above with the fine metal mesh cover, aligning it precisely over the drain and pressing it into locked position (close-up to extreme close-up). Final high-angle wide: full bathroom floor with drain now fully secured — clean and protected.
+
+Camera primarily top-down with slight variations during hand action. Bright clean overhead lighting, cool hygienic white-blue color grade. 100mm macro lens feel on mesh detail. Precise, clean, protective emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -345,7 +409,11 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Hands on a clean wooden kitchen counter locking the lid of a clear glass jar filled with dry food. Ultra-slow controlled push-in toward the jar lid being pressed shut. Warm teal-and-orange color grade, golden motivated window light from off-screen. 85mm lens feel, shallow depth-of-field with warm soft bokeh behind the jar. Premium, satisfying, secure emotional tone. Deliberate slow pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second arc from exposed food to fully sealed protected storage:
+
+Opens with wide shot of clean kitchen counter — dry food laid out in warm morning light. Camera moves in to medium as hands approach the glass jars, then close-up as food is placed inside. Ultra-slow controlled push-in toward the jar lid being pressed firmly shut with both thumbs (extreme close-up). Final pull-back to medium wide: all food now sealed in clear glass jars on the counter — organized and protected.
+
+Warm teal-and-orange color grade, golden motivated window light from off-screen. 85mm lens feel during close-ups, 35mm for wide counter shots. Shallow depth-of-field with warm soft bokeh behind the jar. Premium, satisfying, secure emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -381,7 +449,11 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Hands tightly pressing a heavy trash can lid closed in a clean bright kitchen. Slow controlled camera pan downward following the lid as it presses shut. Bright clean daylight, organized white kitchen environment. 50mm cinematic lens feel, clean balanced exposure, sharp focus on the hands and lid. Clean, decisive, protective emotional tone. Deliberate pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second arc from unsecured garbage to fully sealed and contained:
+
+Opens with wide shot of the clean kitchen corner — full garbage bag on the floor beside the trash can. Camera moves in as hands tie the garbage bag securely closed (close-up to extreme close-up knot), then places it by the can. Slow controlled camera pan downward following hands as they press the trash can lid firmly closed. Final pull-back to wide: the kitchen corner — garbage tied and trash can securely lidded, clean and organized.
+
+Bright clean daylight, organized white kitchen environment. 50mm cinematic lens feel for wide shots, 100mm for close-up hand actions. Clean, decisive, protective emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -419,7 +491,17 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic documentary. Person in plain blue shirt energetically carrying cardboard boxes out of a cluttered indoor storage room. Dynamic slight-handheld tracking shot following the movement, then slow pull-back to reveal the cleared bright space. Color grade transitions from dim desaturated to clean bright. 35mm lens feel, slight handheld energy conveying urgency. Determined, purposeful, satisfying emotional tone. Active energetic then easing pacing. Duration: 5 seconds.
+Cinematic documentary. 5-second arc from cluttered pest-infested space to clean transformed environment:
+
+[0–1s] WIDE ESTABLISHING — messy corner, stacked cardboard boxes, dim oppressive overhead lighting. Slow push-in begins.
+
+[1–1.5s] EVIDENCE CLOSE-UP — close-up of cardboard box corner with visible rat bite marks. Infestation confirmed, urgency established.
+
+[1.5–3.5s] ACTION TRACKING — person in plain blue shirt approaches, then carries heavy stack of boxes toward the exit. Slight handheld energy, dynamic tracking shot following the movement. Urgency and purpose.
+
+[3.5–5s] PROGRESSIVE PULL-BACK — corner half-cleared, bright overhead light begins illuminating the floor. High-angle looking down as the room clears. Final wide establishing: corner completely empty, clean, bright — transformation complete.
+
+Throughout: color grade transitions from dim desaturated to bright clean. 35mm lens feel, slight handheld energy in action phase. Determined, purposeful, satisfying emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -455,7 +537,17 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Hands carefully pulling on thick yellow rubber cleaning gloves in a clean indoor room, snapping them at the wrist. Camera stationary, slow controlled push-in toward the gloves. Cool clinical color grade, sharp focused overhead lighting. 100mm macro lens feel, crisp glove surface detail. Cautious, professional, prepared emotional tone. Deliberate slow pacing. Duration: 3 seconds.
+Cinematic documentary. 3-second arc from contamination discovery to full personal protective equipment:
+
+[0–0.5s] MEDIUM WIDE — clean indoor room, person pausing as they notice something on the floor.
+
+[0.5–1s] HIGH-ANGLE to EXTREME CLOSE-UP — looking down at suspicious dirty floor spot, then extreme close-up of the contamination detail.
+
+[1–2s] MEDIUM to CLOSE-UP SEQUENCE — person stepping back, reaching for equipment. Hands unfolding blue face mask, bringing it to face, fitting it securely over nose and mouth.
+
+[2–3s] CLOSE-UP to MEDIUM — hands pulling on thick yellow rubber gloves, snapping at the wrist. Pull-back to medium: person fully equipped — mask and gloves on, ready and protected.
+
+Throughout: cool desaturated clinical color grade, sharp focused overhead lighting. 50mm to 100mm lens feel. Cautious, professional, methodical emotional tone. Duration: 3 seconds.
 ```
 
 ---
@@ -491,7 +583,19 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Yellow-gloved hands spraying a fine mist of bleach solution onto a contaminated floor spot on clean light-grey ceramic tiles. Camera stationary, slow controlled tilt down following the spray arc to the floor. Cool clinical white-blue color grade, bright overhead lighting with airborne mist catching the light. 85mm lens feel, crisp detail on gloves and mist particles. Methodical, clinical, precise emotional tone. Controlled pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second arc from contamination identification to disinfection complete:
+
+[0–0.5s] WIDE — clean clinical floor, contaminated spot visible on grey tiles. Environment and task established.
+
+[0.5–2s] MEDIUM to CLOSE-UP — yellow-gloved hands entering frame with spray bottle. Close-up of grip on bottle, finger pressing the trigger.
+
+[2–3.5s] EXTREME CLOSE-UP to MEDIUM CLOSE-UP — extreme close-up of fine mist cone emerging from nozzle. Mist settling heavily onto the contaminated spot, wet droplets visible.
+
+[3.5–4.5s] WIDE THEN CLOSE — wide shot: floor area thoroughly wet, mist still hanging in air. Close-up: mist particles glowing in the overhead light beam.
+
+[4.5–5s] MEDIUM — yellow-gloved hands withdrawing from the saturated spot. Disinfection complete.
+
+Throughout: cool clinical white-blue color grade, bright overhead lighting with mist catching the light. 85mm to 100mm lens feel. Methodical, clinical, precise emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -527,7 +631,11 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Yellow-gloved hands thoroughly wiping a floor spot clean using paper towels on light-grey ceramic tiles — progressively cleaner with each pass. Camera stationary, slight top-down angle. Bright clinical overhead lighting, cool white color grade. 100mm macro lens feel, sharp crisp detail on gloves and paper towel surface. Thorough, precise, satisfying emotional tone. Deliberate methodical pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second progressive cleaning arc — from contamination to spotless:
+
+Yellow-gloved hands pressing paper towels onto the wet floor spot, wiping in firm circular motion. Camera holds stationary at slight top-down angle throughout the progressive wipe sequence — contamination visually reducing with each pass. Soiled paper towel lifted, fresh paper towel applied for second and final pass. High-angle close-up revealing floor completely clean. Final pull-back to wide: the full room corner — bright, clean, and spotless.
+
+Bright clinical overhead lighting, cool white color grade. 100mm macro lens feel on close-up wipe action, 35mm for the final wide shot. Thorough, precise, satisfying emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -563,7 +671,11 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Yellow-gloved hands sealing used paper towels into a clear plastic bag — twisting and tying it shut, then carefully peeling off the gloves inside-out. Camera stationary, slight high-angle. Clinical bright overhead lighting, cool white color grade. 100mm lens feel, crisp glove and bag detail. Clinical, methodical, safely completed emotional tone. Slow deliberate pacing. Duration: 3 seconds.
+Cinematic commercial documentary. 3-second sequence completing decontamination — waste sealed, gloves removed:
+
+Yellow-gloved hands drop soiled paper towels into an open clear plastic bag (medium), then grip the top and twist it closed, tying a secure knot (close-up to extreme close-up). Sealed bag set aside on the clean floor (medium pull-back). One glove carefully peeled off inside-out and dropped into the bag (close-up). Final medium shot: both gloves removed, all waste contained — task fully and safely complete.
+
+Camera stationary at slight high-angle throughout. Clinical bright overhead lighting, cool white color grade. 100mm lens feel, crisp glove and bag detail. Clinical, methodical, task-completed emotional tone. Duration: 3 seconds.
 ```
 
 ---
@@ -601,7 +713,17 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary. Clean bright interior room, POV slowly pushing forward toward an open window, gently revealing a clean sunlit outdoor environment below. Ultra-slow controlled dolly push-in. Warm golden morning light, soft white balanced color grade. 35mm lens feel, gentle soft-focus foreground curtain element with sharp exterior beyond. Calm, reassuring, hopeful emotional tone. Very slow contemplative pacing. Duration: 5 seconds.
+Cinematic commercial documentary. 5-second arc from interior stillness to hopeful opening toward the outside world:
+
+[0–1s] WIDE ESTABLISHING — clean bright minimal interior room, soft morning sunlight streaming through a window. Camera stationary, peaceful warmth.
+
+[1–2.5s] INTERIOR DETAILS — medium shot from a different angle of the peaceful organized room. Close-up of window with soft white curtain, warm morning light diffusing through. Medium shot of landline telephone on clean white table in warm side-lighting.
+
+[2.5–4s] HIGH-ANGLE to POV — looking down at the clean table and phone, orderly and calm. POV slowly turning and beginning to push toward the window.
+
+[4–5s] WINDOW PUSH to OUTSIDE — slow dolly push-in toward the open window, curtain gently at frame edge. Arriving at wide POV looking out at a clean sunlit alleyway below — calm, hopeful, open.
+
+Throughout: warm golden morning light, soft white-balanced color grade. 35mm lens feel, gentle soft-focus foreground curtain with sharp exterior beyond. Calm, reassuring, hopeful emotional tone. Duration: 5 seconds.
 ```
 
 ---
@@ -637,7 +759,19 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic commercial documentary closing sequence. Clean narrow alleyway between dense East Asian concrete apartment buildings, warm golden afternoon light slanting through at a low angle. Ultra-slow dolly push-in toward the end of the alley, warm teal-and-orange golden hour color grade. Motivated golden sunlight, long warm shadows, tropical plants and residential architecture in frame. 35mm cinematic lens feel, foreground plants softly out of focus with sharp mid-ground alleyway. Peaceful, warm, hopeful, resolved emotional tone. Slow contemplative closing pacing. Duration: 5 seconds.
+Cinematic commercial documentary closing sequence. 5-second arc exploring the clean protected East Asian residential neighborhood:
+
+[0–1s] WIDE ESTABLISHING — clean narrow alleyway between dense 4–8 story concrete apartment buildings, golden afternoon sun slanting through at low angle. Ultra-slow dolly push-in begins.
+
+[1–2s] VARIED ANGLES — medium wide of tropical plants and greenery along the sidewalk, warm light on apartment facades. Low-angle wide looking up at building rooftops against blue sky with clouds.
+
+[2–3.5s] STREET-LEVEL TRACKING — medium shot of clean sidewalk with neatly parked scooters. Slow tracking movement along the alleyway, warm golden light beckoning at the far end.
+
+[3.5–4.5s] ARCHITECTURAL DETAILS — close-up of rooftop water tanks and laundry poles in warm golden light. Medium wide of building facade with potted plants.
+
+[4.5–5s] LOW-ANGLE to WIDE FINAL — low-angle looking up at the gap between buildings, golden rim light on edges. Final wide establishing from the far end of the alley — warm, peaceful, protected, hopeful.
+
+Throughout: warm teal-and-orange golden hour color grade, motivated golden sunlight, long warm shadows. 35mm cinematic lens feel, foreground plants softly out of focus. Peaceful, warm, resolved emotional tone. Duration: 5 seconds.
 ```
 
 ---
