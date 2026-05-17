@@ -79,7 +79,19 @@ Every frame must display its number (1–9) clearly in the corner. Output as one
 **Seedance 2.0 Prompt:**
 
 ```text
-Cinematic documentary quality. Dark neo-noir urban alleyway at night, wet pavement reflecting harsh sodium streetlight in pools of orange against deep blue-black shadow. Rat silhouette darting through pools of light into shadow. Ultra-slow controlled dolly push-in toward the drain, cold blue shadow tones with high-contrast orange streetlight highlights. 35mm cinematic lens feel, deep foreground-to-background depth, motivated light sources only. Tense, ominous, unsettling emotional tone. Deliberate slow pacing, 24fps cinematic frame rate. Duration: 10 seconds.
+Cinematic neo-noir documentary. Dark urban alleyway at night, wet pavement reflecting harsh sodium streetlight in pools of orange against deep blue-black shadow. 10-second sequence progressing through the following arc:
+
+[0–2s] WIDE ESTABLISHING — static shot of the empty dark alleyway, wet glistening pavement, a single street light pool illuminating the center, total silence and stillness. Ultra-slow dolly push-in begins.
+
+[2–4s] MEDIUM WIDE to LOW-ANGLE — camera drops to near ground level, tracking slowly along the wet pavement. A rat silhouette appears at the edge of the light pool near the drain cover, barely visible in the deep shadow.
+
+[4–6s] CLOSE-UP — cut to extreme close-up of glowing rat eyes reflecting the streetlight from within the shadows, intense and unmoving. Camera holds perfectly still. Maximum tension.
+
+[6–8s] TRACKING MEDIUM — camera follows behind the rat along the alley wall, over-the-shoulder perspective, the rat moving to a garbage bin where a food package lies discarded. Rat begins to gnaw.
+
+[8–10s] WIDE PULL-BACK — slow pull-back to wide shot revealing the full alleyway: scattered debris, droppings, and disturbed packaging near the drain now clearly visible. Evidence of infestation. Camera settles on the empty alley, ominous stillness returns.
+
+Throughout: cold blue shadow tones, high-contrast orange streetlight highlights, neo-noir color grade. 35mm cinematic lens feel, deep foreground-to-background layering, motivated light sources only. Tense, unsettling emotional progression from stillness to revelation. 24fps cinematic frame rate. Duration: 10 seconds.
 ```
 
 ---
