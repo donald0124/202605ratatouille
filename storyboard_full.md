@@ -580,14 +580,17 @@ Output as a single 16:9 image.
 ```
 Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
 
-SETTING: Panels 1–5: interior room near a window. Panels 6–9: person near a mirror or standing area preparing mask. Clean instructional documentary style. No characters — hands and objects only. Shallow depth of field.
+WINDOW STRUCTURE — critical for all panels 1–5:
+This is a two-sash horizontal sliding window. The outer frame is fixed. Inside it are TWO sashes side by side — left sash and right sash. Only the RIGHT sash slides. The LEFT sash is always STATIONARY. When the right sash slides fully left, the two sashes OVERLAP — the right half of the window frame now has TWO layers of glass (the overlapping sashes), and the left half remains a single pane. The open GAP appears on the RIGHT side of the frame, where the sliding sash has moved away from. At maximum open, the window is HALF open — one sash-width of open gap on the right, one sash-width of glass on the left. The full window frame is ALWAYS visible in every panel.
+
+SETTING: Panels 1–5: interior room near a two-sash sliding window, wall and window frame always visible. Panels 6–9: person near a mirror or standing area preparing mask. Clean instructional documentary style. No characters — hands and objects only. Shallow depth of field.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Medium, side-view: approaching a window, window frame and wall visible, light from outside.
-Panel 2 — Hand close-up: hand on window latch, ready to open.
-Panel 3 — Medium: window being pushed open, motion visible, action with effort.
-Panel 4 — Medium: window fully open, daylight flooding in, outdoor environment clear.
-Panel 5 — Medium: subtle movement of a curtain in fresh air, ventilation established.
+Panel 1 — Medium, side-view: the closed sliding window from inside. Both sashes fully closed side by side, filling the frame. Full window frame visible, wall on sides. Light from outside visible through the glass. Window completely shut.
+Panel 2 — Hand close-up: hand gripping the vertical handle on the right inner edge of the RIGHT sash. The handle is a simple vertical bar. Both sashes still closed. Hand closed around the handle, about to slide.
+Panel 3 — Medium: the RIGHT sash sliding horizontally to the LEFT, now about halfway open. The open gap on the RIGHT side of the frame is clearly visible — outside air and light entering through this open gap. The LEFT sash remains completely stationary. The two sashes are partially overlapping in the center. NO full disappearance of the glass — only a partial opening on the right.
+Panel 4 — Medium: the RIGHT sash slid fully to the LEFT — maximum open position. The right half of the frame is now an open gap (no glass there). The left half still has the stationary LEFT sash in place. The window frame is fully visible. Daylight and fresh air entering through the open right half.
+Panel 5 — Medium: same window view as Panel 4 — right sash fully open, left sash stationary. A curtain nearby (or light fabric) gently moving in the incoming breeze. The open gap remains visible. Ventilation established.
 Panel 6 — Medium close-up: hands holding an unfolded white face mask, ready to apply.
 Panel 7 — Medium close-up: mask being positioned in front of the face, handles extending outward.
 Panel 8 — Medium close-up: mask placed over nose and mouth, nose bridge being pressed down.
@@ -614,9 +617,9 @@ Panel 5 onward: BOTH gloves fully on.
 
 PANEL DESCRIPTIONS:
 Panel 1 — Top-down close-up: a BARE human hand (no glove, bare skin visible) reaching down to pick up the yellow rubber gloves from a flat surface. The gloves are still flat and unworn on the surface. NO gloves on the hands in this panel.
-Panel 2 — Top-down close-up: one bare hand stretching open the first yellow glove with the other hand, beginning to insert fingers. ONE hand partially entering the glove — fingertips just inside.
-Panel 3 — Top-down close-up: first yellow glove pulled fully on one hand and snapping at the wrist. Other hand still bare.
-Panel 4 — Top-down close-up: second yellow glove being pulled over the other hand. One hand fully gloved, one hand mid-glove.
+Panel 2 — Top-down close-up: the RIGHT hand fingers entering the first yellow glove. The LEFT hand (bare) holds the glove open wide. RIGHT hand fingertips are just inside the glove — partially inserted. LEFT hand remains completely bare throughout this panel.
+Panel 3 — Top-down close-up: the RIGHT yellow glove now fully pulled onto the RIGHT hand and snapped at the RIGHT wrist. The LEFT hand is still COMPLETELY BARE — no glove, bare skin only. Consistent with Panel 2: same right-hand-gloved, left-hand-bare state.
+Panel 4 — Top-down close-up: the LEFT hand fingers now entering the second yellow glove. The RIGHT hand (already fully gloved in yellow) holds the second glove open. LEFT hand mid-insertion — fingertips inside, glove being pulled up.
 Panel 5 — Top-down medium: BOTH yellow gloves now fully on. Hands spread open to confirm fit. Fully gloved from this panel onward.
 Panel 6 — 45-degree downward, medium: gloved hand picking up a white spray bottle.
 Panel 7 — 45-degree downward, medium: spray bottle aimed at the floor area, mist beginning to leave nozzle.
@@ -663,10 +666,13 @@ Output as a single 16:9 image.
 ```
 Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
 
-SETTING: Transition from disinfection area to a bright clean bathroom sink. Panels 1 is hands completing glove removal. Panels 2–9 are handwashing at a modern clean sink. No characters — hands only.
+SETTING: Transition from disinfection area to a bright clean bathroom sink. Panel 1 is hands completing glove removal. Panels 2–9 are handwashing at a modern clean sink. No characters — hands only.
+
+GLOVE STATE — Panel 1 only:
+One hand still wearing a YELLOW rubber glove (same yellow rubber gloves from SB-08 and SB-09). The other hand is already BARE (human skin). The yellow glove is being peeled off inside-out. After Panel 1, BOTH hands are bare for the rest of this storyboard.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Close-up: second rubber glove being removed inside-out and placed into the sealed bag. Bag re-sealed. Final contamination control moment.
+Panel 1 — Close-up: the second YELLOW rubber glove being peeled off inside-out — one bare hand pulling the yellow glove off the other hand. The removed glove (inside-out yellow rubber) being placed into the sealed plastic bag. Bag re-sealed. One hand bare, one hand transitioning to bare. Final contamination control moment.
 Panel 2 — Medium: movement toward a clean bright bathroom sink.
 Panel 3 — Medium close-up: tap being turned on, water beginning to flow.
 Panel 4 — Medium close-up: hands under running water, beginning rinse.
@@ -759,20 +765,24 @@ Output as a single 16:9 image.
 ```
 Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
 
-SETTING: Same cluttered storage room, now being actively cleaned and cleared. Panels progress from maximum clutter to near-clean state. Same camera angle throughout for continuity. No characters.
+SETTING: A narrow corridor-like storage room. Camera is fixed at the entrance end, pointing straight toward a window at the far wall — identical framing throughout all 9 panels. As clutter is removed, the room's true interior is revealed: warm honey-colored wood laminate flooring, beige/cream smooth walls, metal shelving units lining both sides, and a large window at the back letting in bright natural daylight. No characters.
+
+START STATE (Panel 1) — dark, extremely cluttered: boxes piled floor to ceiling on both sides, trash bags on the floor, barely any floor visible, pendant ceiling light dimly lit, gray-cold atmosphere, small window barely visible in the back, matches reference image exactly.
+
+END STATE (Panel 9) — bright, nearly organized: warm honey wood floor clean and fully visible, beige walls exposed, metal shelving units on both sides neatly filled with brown cardboard boxes and white storage boxes, large window at back flooding room with bright natural daylight, no clutter on floor. Visually identical to the provided reference of the organized storage room.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Wide, static: same angle as SB-13 Panel 9 — maximum clutter, cold and dark. Starting point.
-Panel 2 — Wide, static: first cardboard box being moved, slight change visible.
-Panel 3 — Wide, static: several boxes removed, floor partially visible.
-Panel 4 — Wide, static: clearing in progress, more floor exposed, light quality improving.
-Panel 5 — Wide, static: over half cleared, open space emerging, lighting brightening noticeably.
-Panel 6 — Wide, static: last few items being organized, storage room taking shape.
-Panel 7 — Wide, static: floor nearly fully visible, overhead light reaching the floor.
-Panel 8 — Wide, static: clearing nearly complete, bright warm light emerging.
-Panel 9 — Wide, static: first glimpse of clean state — floor visible, light warm, transition to the After.
+Panel 1 — Wide, static: STARTING POINT — maximum clutter. Dark, cold, gray-blue tones. Boxes piled ceiling-high on both sides. Floor completely hidden. Pendant light barely illuminating. Small window at back nearly blocked.
+Panel 2 — Wide, static: a few boxes moved near the entrance. Slight gap in the clutter, first hint of floor near camera.
+Panel 3 — Wide, static: boxes cleared from the near third. Honey wood floor visible in the foreground. Room still dark in the back half.
+Panel 4 — Wide, static: mid-point clearing. Floor visible halfway to the back. Metal shelving units beginning to emerge on the sides. Light improving.
+Panel 5 — Wide, static: over half cleared. Both shelving units clearly visible, still partially loaded with scattered items. Window light starting to reach mid-room.
+Panel 6 — Wide, static: two-thirds cleared. Shelves being organized — some boxes neatly stacked, others still scattered. Warm tone increasingly dominant.
+Panel 7 — Wide, static: floor almost fully visible. Shelving units mostly organized with boxes. Window light now fills most of the room.
+Panel 8 — Wide, static: nearly complete. Shelves neatly loaded, floor entirely clean, beige walls fully visible, bright warm daylight from window.
+Panel 9 — Wide, static: ENDING POINT — matches organized reference exactly. Honey wood floor spotless, metal shelves neatly filled with brown and white boxes on both sides, large window flooding room with bright natural light, beige walls, no floor clutter. Seamless visual match to SB-15 Panel 1.
 
-STYLE: Progressive color transition — cold gray-green shifting to warmer tones as the room clears. Consistent wide angle for before/after impact. No text.
+STYLE: Progressive transition — cold gray-blue in Panel 1 shifting fully to warm daylight tones by Panel 9. Same corridor framing, same fixed camera, same room throughout. No text.
 Output as a single 16:9 image.
 ```
 
@@ -788,7 +798,7 @@ CHARACTER: All human characters are Taiwanese — East Asian facial features, na
 SETTING: Panels 1–4: storage room "After" state — completely clean, bright, organized. IDENTICAL camera angle as cluttered versions for maximum before/after impact. Panels 5–9: transition to a living room with a sick person. No characters in panels 1–4; a person visible in panels 7–9.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Wide, static: storage room After — same exact angle as Before versions. Floor clean, shelves organized, bright warm light. Powerful contrast.
+Panel 1 — Wide, static: storage room After — IDENTICAL camera angle and room as SB-14 Panel 9. Direct visual continuation: same wood-tone floor now spotless, same metal shelving units now neatly filled with labeled boxes, same warm natural window light. The visual match to SB-14 Panel 9 must be seamless — this is the same room, one frame later.
 Panel 2 — Wide, static: same shot, emphasizing the cleanliness and space.
 Panel 3 — Medium, static: detail of clean organized storage shelves, items neat.
 Panel 4 — Wide, static: warm bright full room view — prevention and care transformed the space.
@@ -965,26 +975,24 @@ Output as a single 16:9 image.
 ### SB-22 Prompt｜Scene 6：Tiger 追老鼠喜劇收尾
 
 ```
-Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
+Create a single 16:9 storyboard image divided into a 3×3 grid of 9 equal panels. Label each panel with a small bold number (1–9) in the top-left corner against a white chip background. No other text anywhere.
 
-CHARACTERS: Tiger Expert — anthropomorphic tiger, white lab coat,
-orange-black striped fur. Maintain exact consistency with reference image.  A small mouse — realistic but slightly comical in scale, large round eyes, quick posture.
+CHARACTER — Tiger Expert: anthropomorphic tiger standing upright on two legs. White lab coat (buttoned, lapels, white collar). Bright orange fur with bold black tiger stripes on face and arms. Amber-golden eyes. Broad shoulders, human-proportioned body. Semi-realistic style — not cartoonish, closer to high-quality 3D film character art.
+CHARACTER — Mouse: tiny gray mouse, large round cartoon eyes, plump comical body, small round ears. Scale is much smaller than Tiger Expert — barely ankle-height.
 
-SETTING: Same bright, clean transformed storage room. Cheerful, wide framing for comedic energy.
+SETTING: Bright modern veterinary clinic interior. White walls, blue-trim shelves with supplies, a plant in the corner, warm overhead lighting. Wide framing, cheerful and clean.
 
-PANEL DESCRIPTIONS:
-Panel 1 — Wide, static: bright clean room. Tiger Expert standing calmly. Peaceful.
-Panel 2 — Wide, low angle: a tiny movement at the bottom-right corner of the frame. Barely noticeable.
-Panel 3 — Wide, low angle: a small mouse has darted into the frame at the bottom-right corner, surprised expression, comically round eyes.
-Panel 4 — Close-up, Tiger Expert's face: eyes going wide with sudden recognition and alertness. Comedic shift in expression.
-Panel 5 — Wide: Tiger Expert's full body — shifting from relaxed to alert hunting stance. Eyes locked on mouse.
-Panel 6 — Wide: mouse turning to flee, Tiger Expert dropping into a chase lean, both about to move.
-Panel 7 — Wide: Tiger Expert in full energetic chase stride, mouse darting ahead, energy and motion.
-Panel 8 — Wide: both in full sprint across the frame — mouse nearly off-screen right, Tiger Expert close behind.
-Panel 9 — Wide, static: both have exited the frame right. The bright, cheerful, clean room holds — empty, quiet, perfect. End of film.
+PANEL 1 — Wide shot, static. Tiger Expert stands upright at room center, relaxed posture, arms loosely at sides, slight smile. Room is calm and empty behind him.
+PANEL 2 — Wide shot, low angle (camera at floor level). Same room, Tiger Expert visible in background standing still. In the extreme bottom-right corner of the frame, a tiny blur of gray movement — barely visible, just a hint.
+PANEL 3 — Wide shot, low angle. A small gray mouse has fully entered the frame from the bottom-right corner. It freezes mid-scurry, eyes wide, looking up. Tiger Expert in background has turned his head toward it.
+PANEL 4 — Extreme close-up on Tiger Expert's face only. His eyes are HUGE and round — maximum comedic shock expression. Pupils tiny, eyebrows high, mouth slightly open. Pure cartoon double-take face.
+PANEL 5 — Wide shot. Tiger Expert in a full exaggerated hunting crouch: knees bent, torso forward, both hands spread low in front of him, tail raised. His entire body posture screams "HUNT MODE." Eyes locked on the mouse.
+PANEL 6 — Wide shot. The mouse is spinning on its heels to flee (shown mid-turn, tiny legs a blur). Tiger Expert is leaning far forward into a sprinting launch position, one foot off the ground, coat beginning to flap behind him.
+PANEL 7 — Wide shot. Full energetic pursuit: Tiger Expert mid-stride in a dramatic running pose — arms pumping, coat flying, teeth slightly showing in a grin. Mouse visible ahead of him, legs a blur, running flat-out.
+PANEL 8 — Wide shot. Both characters have reached the right side of the frame. Mouse is halfway off-screen right. Tiger Expert right behind, arm outstretched reaching toward the mouse, nearly off-screen too. Tremendous energy and motion blur on both.
+PANEL 9 — Wide shot, static. The room is completely empty. No characters. Bright clean clinic, shelves, plant, warm light — perfectly peaceful, as if nothing happened. Hold.
 
-STYLE: Bright cheerful warm light. Wide cinematic framing for comedic action. Energy and lightness. No text.
-Output as a single 16:9 image.
+STYLE: Semi-realistic 3D render style, high quality, cinematic. Warm bright cheerful lighting throughout all panels. Consistent character design across all panels. Sharp clean lines.
 ```
 
 ---
@@ -1136,11 +1144,11 @@ TOTAL: 8 seconds.
 ```
 Instructional demonstration: opening a window for ventilation, then putting on a face mask. 8 seconds. Reference @image1. Hands only, no characters.
 
-[0-1s] Medium side-view: approaching a window, window frame visible, outdoor light beyond.
-[1-2s] Hand close-up: hand on window latch, turning to release.
-[2-3s] Medium: window being pushed open with effort, daylight flooding in.
-[3-4s] Medium: window fully open, outdoor environment clear. Fresh light entering.
-[4-5s] Medium: curtain or air movement visible — ventilation established.
+[0-1s] Medium side-view: approaching a two-sash sliding window, both sashes closed, full window frame visible, outdoor light filtering through glass.
+[1-2s] Hand close-up: hand gripping the vertical handle on the right edge of the right sash. Both sashes still closed. Steady grip, about to slide.
+[2-3s] Medium: the right sash sliding horizontally to the LEFT — open gap appearing on the right side of the frame. Left sash stationary. The two sashes partially overlapping. Strictly horizontal motion, no pushing outward.
+[3-4s] Medium: right sash fully slid to the left — maximum open position. Right half of the frame is now an open gap, left sash still in place on the left. Fresh air and daylight entering through the open right half only.
+[4-5s] Medium: same window view — open gap on right, stationary sash on left. Curtain or nearby fabric gently moving in the incoming breeze. Ventilation established.
 [5-6s] Medium close-up: hands holding an unfolded white face mask, prepared.
 [6-7s] Medium close-up: mask being positioned over the face.
 [7-8s] Medium close-up: mask adjusted, nose bridge secured, ear loops fitted. Complete.
@@ -1159,10 +1167,10 @@ TOTAL: 8 seconds.
 Instructional: putting on yellow rubber gloves, then spraying bleach solution onto the disinfection area. 10 seconds. Reference @image1. Hands only.
 NOTE: "漂白水稀釋比例 1:10" text card is POST-PRODUCTION overlay starting around 6s — do NOT render text in video.
 
-[0-1s] Top-down close-up: yellow rubber gloves picked up.
-[1-2s] Top-down: first glove stretched and pulled on.
-[2-3s] Top-down: first glove snapped at wrist.
-[3-4s] Top-down: second glove pulled on.
+[0-1s] Top-down close-up: yellow rubber gloves picked up, still flat on surface.
+[1-2s] Top-down: RIGHT hand fingers entering the first glove; LEFT hand (bare) holds it open.
+[2-3s] Top-down: RIGHT glove fully on and snapped at RIGHT wrist; LEFT hand still completely bare.
+[3-4s] Top-down: LEFT hand fingers entering the second glove; RIGHT hand (gloved) holds it open.
 [4-5s] Top-down medium: both gloves on, hands spread to confirm fit.
 [5-6s] 45-degree downward: gloved hand picking up white spray bottle.
 [6-7s] 45-degree downward: spray bottle aimed at floor area, mist beginning.
@@ -1205,7 +1213,7 @@ TOTAL: 9 seconds.
 ```
 Instructional: completing glove removal, then thorough handwashing. Sense of completion. 8 seconds. Reference @image1. Hands only.
 
-[0-1s] Close-up: second rubber glove peeled off inside-out, placed into sealed bag. Bag re-sealed.
+[0-1s] Close-up: second YELLOW rubber glove peeled off inside-out — one bare human hand removing the yellow glove from the other hand. Removed yellow glove placed into sealed bag. Bag re-sealed. Both hands now bare after this moment.
 [1-2s] Medium: movement toward a clean bright bathroom sink.
 [2-3s] Medium close-up: tap turned on, water flowing.
 [3-4s] Medium close-up: hands under running water, beginning rinse.
@@ -1289,18 +1297,21 @@ TOTAL: 9 seconds.
 ### Seedance SB-14｜B-3：儲藏室清理過程（7s）
 
 ```
-Progressive clearing of the cluttered storage room — same angle throughout. 7 seconds. Reference @image1. No characters.
+Storage room transformation — clutter progressively removed, true interior revealed. Fixed corridor-view camera throughout. 7 seconds. No characters.
 
-[0-1s] Wide static: same angle as Before — maximum clutter. Starting point.
-[1-2s] Wide static: first item moved, subtle change beginning.
-[2-3s] Wide static: several boxes removed, floor partially appearing.
-[3-4s] Wide static: halfway cleared, more space, lighting improving.
-[4-5s] Wide static: over halfway done, open space prominent, warming light.
-[5-6s] Wide static: last items being organized, room taking shape.
-[6-7s] Wide static: first glimpse of clean state — floor visible, warm light beginning. Transition to After.
+START: matches SB-13 final frame — dark, maximum clutter, boxes floor-to-ceiling, cold gray-blue.
+END: matches SB-15 Panel 1 reference — honey wood floor fully clean, metal shelving units neatly organized on both sides, large window flooding room with warm natural daylight, beige walls, no floor clutter.
 
-CAMERA: Static wide throughout. IDENTICAL framing to Before panels for continuity.
-COLOR: Cold gray-green progressively transitioning to warmer tones as room clears.
+[0-1s] Wide static: maximum clutter, dark cold atmosphere. Boxes piled ceiling-high. Pendant light dim. Small window barely visible at back.
+[1-2s] Wide static: a few boxes removed near entrance. First glimpse of honey wood floor in foreground.
+[2-3s] Wide static: front half of floor visible. Metal shelving units on sides beginning to emerge from behind boxes.
+[3-4s] Wide static: halfway cleared. Room noticeably brighter. Both shelving units visible, partially loaded.
+[4-5s] Wide static: two-thirds cleared. Warm daylight reaching mid-room. Shelves being organized.
+[5-6s] Wide static: nearly done. Floor almost fully exposed, shelves neatly stacked, window light dominant.
+[6-7s] Wide static: FINAL FRAME — identical to SB-15 Panel 1. Honey floor spotless, shelves organized, bright daylight from back window, beige walls. Hold 1 second.
+
+CAMERA: Static wide, fixed corridor framing throughout. No movement.
+COLOR: Cold gray-blue [0s] → warm natural daylight [7s]. Progressive, continuous transition.
 TOTAL: 7 seconds.
 ```
 
@@ -1462,22 +1473,36 @@ TOTAL: 8 seconds.
 ### Seedance SB-22｜Scene 6：Tiger 追老鼠，喜劇收尾（8s）
 
 ```
-Comedic chase ending — a mouse appears, Tiger Expert chases it off-screen. Cheerful finale. 8 seconds. Reference @image1.
-CHARACTERS: Tiger Expert (consistent design). A small comically-proportioned mouse with large round eyes.
+8-second continuous video clip. Bright cheerful veterinary clinic interior. Wide static camera, no movement. This is a VIDEO — do NOT reproduce any grid, panels, or numbers from the reference image. Use @image1 for character appearance and room environment only.
 
-[0-1s] Wide static: bright clean room. Tiger Expert standing calmly. Peaceful silence.
-[1-2s] Wide low angle: the bottom-right corner — a tiny flicker of movement.
-[2-3s] Wide low angle: a small mouse darts into frame at bottom-right. Surprised expression.
-[3-4s] Close-up, Tiger Expert's face: eyes going wide, sudden recognition. Comedic expression shift.
-[4-5s] Wide: Tiger Expert's full body shifting from relaxed to alert hunting stance.
-[5-6s] Wide: mouse turning to flee, Tiger Expert dropping into chase lean.
-[6-7s] Wide: Tiger Expert in full energetic chase stride, mouse ahead and running.
-[7-8s] Wide static: BOTH have exited frame right. The bright, cheerful, clean room holds — empty, quiet, perfect. 2-second hold. Fade to black.
+IMPORTANT: The output is a single seamless video shot. No text, no numbers, no grid lines, no panel borders appear anywhere at any point.
 
-CAMERA: Wide static throughout. Low angle for mouse entry.
-COLOR: Bright cheerful warm light. Energetic and light.
-AUDIO CUE: Comedic music sting on mouse entry. Fast comedic pursuit sound. Then silence for empty room.
-TOTAL: 8 seconds.
+CHARACTERS:
+— Tiger Expert: anthropomorphic tiger upright on two legs, white lab coat, orange fur with black stripes, amber eyes. Semi-realistic 3D character style.
+— Mouse: tiny gray mouse, comically large round eyes, plump small body, ankle-height compared to Tiger Expert.
+
+ENVIRONMENT: Bright modern clinic room. White walls, blue shelving units with supplies, small plant, warm overhead light. Wide framing.
+
+VIDEO ACTION (single continuous take, smooth motion):
+
+[0.0–1.5s] Tiger Expert stands relaxed at room center, arms loosely at sides, slight calm expression. Room is still and peaceful. No movement.
+
+[1.5–2.5s] From the very bottom-right corner of frame, a tiny gray mouse scurries in and freezes — it looks up. Tiger Expert's ears visibly perk. He turns his head slowly toward the mouse.
+
+[2.5–3.5s] REACTION BEAT: Tiger Expert's face shifts to maximum comedic shock — eyes go huge and round, brows shoot up, body stiffens. A single freeze-frame beat of pure surprise before any movement.
+
+[3.5–4.5s] Tiger Expert drops fluidly into a wide low hunting crouch — knees bent, torso forward, hands spread near the ground, tail up. He is locked onto the mouse. The mouse begins to back away.
+
+[4.5–5.5s] The mouse BOLTS — spinning on tiny legs and sprinting left across the room. Tiger Expert launches into pursuit in the same instant — a powerful first stride, white coat flapping, arms beginning to pump.
+
+[5.5–7.0s] Full-speed chase across the room. Tiger Expert running in long energetic strides, coat flying, expression gleeful and focused. Mouse at full sprint ahead of him, legs a tiny blur. Both crossing the full width of the room toward the right side of frame.
+
+[7.0–8.0s] Both characters exit frame right — Tiger Expert's reaching hand is the last thing to disappear. The room holds completely empty, bright, and peaceful. Slow gentle fade to black.
+
+MOTION QUALITY: Fluid 3D animation. Exaggerated but not slapstick — think high-quality animated film (not rubber-hose cartoon). Fast acceleration, expressive body arcs, coat has fabric physics.
+CAMERA: Wide static throughout. Absolutely no camera movement, pan, or zoom.
+LIGHTING: Consistent warm bright white throughout. No color or mood change.
+PACING: Slow build [0–3.5s] → explosive action [3.5–7s] → peaceful empty hold [7–8s].
 ```
 
 ---

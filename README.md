@@ -27,6 +27,21 @@
 | **Tiger Expert（畫外音）** | — | 中段 SB-05 至 SB-18 | 教育旁白說明 |
 | **小老鼠** | 普通倉鼠大小，有點滑稽 | SB-22 結尾 | 喜劇收尾 |
 
+### 角色參考圖
+
+#### Tiger Expert（Dr. Tiger）
+!["strory board 2.0/tiger_expert.png"](<strory board 2.0/tiger_expert.png>)
+
+---
+
+#### 女性第一人稱角色｜林書娟
+!["strory board 2.0/SB15-FF.png"](<strory board 2.0/SB15-FF.png>)
+
+---
+
+#### 男性第一人稱角色｜Lin Min Ryan
+!["strory board 2.0/SB15-MM.png"](<strory board 2.0/SB15-MM.png>)
+
 ---
 
 ## 時間軸總覽
