@@ -196,11 +196,11 @@
 | F2 | 手部特寫 | 紙巾開始擦拭動作，徹底且有方向感 | — | — |
 | F3 | 手部特寫 | 繼續擦拭，污物被收進紙巾 | — | — |
 | F4 | 手部特寫 | 紙巾與污物被放入透明塑膠袋中 | — | — |
-| F5 | 手部特寫 | 塑膠袋被舉起，袋口準備封緊 | — | — |
-| F6 | 手部特寫 | 袋口打結封口，動作確實 | — | — |
-| F7 | 手部特寫 | 袋子封好，放至一旁。開始處理手套 | — | 「手套也是汙染物——脫下後一起封袋。」 |
-| F8 | 手部特寫，close | 手套去除技法：一手夾住另一隻手套的手腕往外翻 | — | — |
-| F9 | 手部特寫，close | 第一隻手套翻面脫下，放入同一個密封袋 | — | — |
+| F5 | 手部特寫 | 塑膠袋放至一旁，袋口保持開放，預備放入手套 | — | 「手套也是汙染物——脫下後一起封袋。」 |
+| F6 | 手部特寫，close | 手套去除技法：一手夾住另一隻手套的手腕往外翻 | — | — |
+| F7 | 手部特寫，close | 第一隻手套翻面脫下（一手裸露、另一手仍戴手套） | — | — |
+| F8 | 手部特寫 | 第一隻手套（翻面朝內）放入仍開口的塑膠袋中 | — | — |
+| F9 | 手部特寫，close | 裸手鉤起另一手套邊緣，準備翻面脫除第二隻 | — | — |
 
 ---
 
@@ -208,7 +208,7 @@
 
 | 格 | 鏡頭 | 畫面描述 | 字卡 | VO |
 |----|------|----------|------|----|
-| F1 | 手部特寫 | 第二隻手套翻面脫下，放入袋中，袋口再次確認封口（步驟 6 收尾） | — | — |
+| F1 | 手部特寫 | 第二隻手套翻面脫下，放入袋中，袋口打結封口（步驟 6 收尾，首次封口） | — | — |
 | F2 | 中景 | 走向洗手台，亮色浴室環境 | — | 「最後，用肥皂洗手至少二十秒。」 |
 | F3 | 中近景 | 水龍頭打開，水流開始 | — | — |
 | F4 | 中近景，正面 | 雙手置於流水之下 | — | — |
@@ -640,20 +640,23 @@ Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid
 SETTING: Same disinfection area. Paper towels and a clear plastic bag. Clinical overhead lighting. No characters — hands and objects only.
 
 GLOVE STATE PROGRESSION — read carefully:
-Panels 1–7: BOTH hands in yellow rubber gloves throughout.
-Panel 8: glove removal BEGINS — both hands still gloved, but one hand is pinching the wrist cuff of the other.
-Panel 9: first glove fully removed — ONE hand is now BARE (human skin visible, NO yellow rubber). The removed inside-out glove is being held or dropped. The other hand still wears its yellow glove.
+Panels 1–4: BOTH hands in yellow rubber gloves throughout.
+Panel 5: BOTH hands still gloved. Bag set to the side with its mouth OPEN — bag is NOT sealed.
+Panel 6: glove removal BEGINS — one hand pinching the wrist cuff of the other. Both hands still gloved, no bare skin yet.
+Panel 7: first glove fully removed — ONE hand is now BARE (human skin visible, NO yellow rubber). The removed inside-out glove is being held. The other hand still wears its yellow glove.
+Panel 8: first glove (inside-out) being placed into the still-OPEN bag. ONE hand bare, ONE hand gloved.
+Panel 9: bare hand hooking under the edge of the remaining yellow glove, beginning to peel it off. The open bag is visible nearby.
 
 PANEL DESCRIPTIONS:
 Panel 1 — Close-up, downward: gloved hand holding a white paper towel, approaching the disinfected floor area. Both hands in yellow gloves.
 Panel 2 — Close-up, downward: wiping motion — thorough and directional. Yellow gloved hand.
 Panel 3 — Close-up, downward: continued wiping, surface being cleaned. Yellow gloved hand.
 Panel 4 — Close-up: contaminated paper towel being placed into a clear plastic bag. Yellow gloved hands.
-Panel 5 — Close-up: additional material being added to the plastic bag. Yellow gloved hands.
-Panel 6 — Close-up: plastic bag held open for final items. Yellow gloved hands.
-Panel 7 — Close-up: bag being knotted and tied shut firmly. Yellow gloved hands — last panel with both gloves on.
-Panel 8 — Close-up: glove removal begins. BOTH hands still in yellow gloves. One hand pinching the wrist cuff of the other glove, beginning to peel it off. No bare skin yet.
-Panel 9 — Close-up: first glove has been peeled off inside-out. ONE hand is now COMPLETELY BARE — human skin, no rubber, no yellow. The removed inside-out glove dangles or drops. The other hand still wears its yellow glove.
+Panel 5 — Close-up: the clear plastic bag set aside with its mouth OPEN (not tied, not sealed). Yellow gloved hands. Bag is waiting to receive the gloves.
+Panel 6 — Close-up: glove removal begins. BOTH hands still in yellow gloves. One hand pinching the wrist cuff of the other glove, beginning to peel. No bare skin yet.
+Panel 7 — Close-up: first glove has been peeled off inside-out. ONE hand is now COMPLETELY BARE — human skin, no rubber, no yellow. The removed inside-out glove is held. The other hand still wears its yellow glove.
+Panel 8 — Close-up: the removed inside-out glove being dropped into the still-OPEN plastic bag. ONE hand bare, ONE hand still gloved in yellow. Bag mouth open, not sealed.
+Panel 9 — Close-up: the bare hand hooking under the edge of the remaining yellow glove, beginning to peel it off inside-out. Open bag visible nearby. Second glove removal in progress.
 
 STYLE: Clean clinical white-blue overhead lighting. Sharp hand focus, soft background. Precise instructional. No text.
 Output as a single 16:9 image.
@@ -669,10 +672,10 @@ Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid
 SETTING: Transition from disinfection area to a bright clean bathroom sink. Panel 1 is hands completing glove removal. Panels 2–9 are handwashing at a modern clean sink. No characters — hands only.
 
 GLOVE STATE — Panel 1 only:
-One hand still wearing a YELLOW rubber glove (same yellow rubber gloves from SB-08 and SB-09). The other hand is already BARE (human skin). The yellow glove is being peeled off inside-out. After Panel 1, BOTH hands are bare for the rest of this storyboard.
+One hand still wearing a YELLOW rubber glove (same yellow rubber gloves from SB-08 and SB-09). The other hand is already BARE (human skin, no rubber). The yellow glove is being peeled off inside-out and dropped into the still-OPEN plastic bag. The bag is then tied shut for the FIRST time — do NOT show a previously sealed bag being re-opened. After Panel 1, BOTH hands are bare for the rest of this storyboard.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Close-up: the second YELLOW rubber glove being peeled off inside-out — one bare hand pulling the yellow glove off the other hand. The removed glove (inside-out yellow rubber) being placed into the sealed plastic bag. Bag re-sealed. One hand bare, one hand transitioning to bare. Final contamination control moment.
+Panel 1 — Close-up: the second YELLOW rubber glove being peeled off inside-out — one bare hand pulling the yellow glove off the other hand. The removed glove (inside-out yellow rubber) being placed into the still-OPEN plastic bag (which already contains the first glove and the used towels). Bag now tied shut for the FIRST time — this is the only sealing action. Both hands now completely bare. Final contamination control moment.
 Panel 2 — Medium: movement toward a clean bright bathroom sink.
 Panel 3 — Medium close-up: tap being turned on, water beginning to flow.
 Panel 4 — Medium close-up: hands under running water, beginning rinse.
@@ -845,22 +848,22 @@ Output as a single 16:9 image.
 ```
 Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
 
-CHARACTER: Main person is Taiwanese — East Asian facial features, natural contemporary look. Taiwanese male, early 30s, handsome and clean-cut, black hair. Casual home clothing in panels 1–5, same person in panels 6–9. Face visible from panel 3 onward — determined, purposeful expression. Realistic cinematic casting.
+CHARACTER: Main person is Taiwanese — East Asian facial features, natural contemporary look. Taiwanese male, early 30s, handsome and clean-cut, black hair. Casual home clothing in panels 1–5, same person in panels 6–9. IMPORTANT — this person is visibly ill: pale skin, slightly feverish flush on cheeks, tired and heavy-lidded eyes, slightly hunched posture from discomfort. Despite being unwell, his expression shows resolve — he is sick but making the decision to seek help. Realistic cinematic casting.
 
-SETTING: Panels 1–5: domestic interior. Panels 6–9: hospital emergency exterior. Transition from home to hospital. Mood shifts from concerned to determined and active. No Tiger Expert.
+SETTING: Panels 1–5: domestic interior, dimly lit — a sick person's home environment. Panels 6–9: hospital emergency exterior. Transition from home to hospital. Mood: physical distress giving way to determined action. No Tiger Expert.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Close-up, table surface: a smartphone on a table, a hand beginning to reach toward it.
-Panel 2 — Hand close-up: hand grasping the smartphone, screen activating.
-Panel 3 — Medium close-up: phone to ear or dialing screen visible, determined expression, face partial.
-Panel 4 — Medium: person standing up from a seated position, purposeful movement.
-Panel 5 — Medium: person walking toward a door, confident stride, the decision made.
-Panel 6 — Wide, exterior: hospital emergency entrance building facade. Daytime. Clean institutional architecture.
-Panel 7 — Wide, exterior: closer to the emergency entrance, automatic sliding doors visible.
-Panel 8 — Wide, exterior: automatic doors opening, warm interior light visible inside.
-Panel 9 — Wide, entrance threshold: person stepping through the automatic doors into the hospital. Help sought.
+Panel 1 — Close-up, table surface: a smartphone on a table, a shaky or weak hand beginning to reach toward it.
+Panel 2 — Hand close-up: hand grasping the smartphone, screen activating. Hand looks slightly unsteady.
+Panel 3 — Medium close-up: phone to ear, person's face visible — pale, tired, clearly unwell but focused. Feverish expression.
+Panel 4 — Medium: person standing up from a seated position with effort, one hand bracing on furniture, body clearly weak and uncomfortable.
+Panel 5 — Medium: person walking toward a door, slightly hunched, one hand on wall or abdomen, moving with effort despite feeling sick.
+Panel 6 — Wide, exterior: hospital main entrance gate — a large concrete arch structure with Chinese characters inscribed across the top, vehicle barrier gates on both sides, a wide two-lane road passing through, tall trees lining both sides of the entry road. Overcast daytime sky. Person visible in distance approaching the gate on foot.
+Panel 7 — Wide, exterior: person has passed through the arch gate and is now walking along the tree-lined entrance road toward the main building, viewed from behind. Road markings visible.
+Panel 8 — Wide, exterior: the hospital emergency building comes into full view — a modern multi-story building with gray and white facade, grid-pattern windows, and a distinctive abstract stainless steel sculpture at the entrance. Person walking toward it from mid-distance.
+Panel 9 — Wide, entrance threshold: person approaching the ER building entrance closely, the abstract metal sculpture visible to the side, automatic glass doors ahead. Posture still slightly hunched from illness but moving forward with resolve.
 
-STYLE: Panels 1–5: warm domestic interior, slightly hopeful. Panels 6–9: neutral institutional exterior daylight. Mood: determination, action, resolution. No text.
+STYLE: Panels 1–5: dim warm domestic interior, heavy and uncomfortable atmosphere. Panels 6–9: overcast daylight, muted institutional exterior. Mood: visible illness and physical distress, but determination to act. No text. No Chinese characters or signage text — suggest institutional presence through architecture only.
 Output as a single 16:9 image.
 ```
 
@@ -871,12 +874,12 @@ Output as a single 16:9 image.
 ```
 Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
 
-CHARACTER: All human characters are Taiwanese — East Asian facial features, natural contemporary look. Patient: same Taiwanese male from SB-16/17, early 30s, handsome, black hair, now more composed and relieved. Doctor: Taiwanese female, late 30s, beautiful and composed, professional authority, white coat, hair neatly tied back. Both characters — realistic cinematic casting, warm and trustworthy screen presence.
+CHARACTER: All human characters are Taiwanese — East Asian facial features, natural contemporary look. Patient: same Taiwanese male from SB-16/17, early 30s, handsome, black hair, now more composed and relieved — wearing a surgical face mask. Doctor: Taiwanese female, late 30s, beautiful and composed, professional authority, white coat, hair neatly tied back — wearing a surgical face mask. All background figures (hospital staff, other patients) also wear surgical masks. Both characters — realistic cinematic casting, warm and trustworthy screen presence.
 
-SETTING: Hospital interior. Clean, professional, calm. Consultation room with a doctor and patient. Warm-neutral institutional lighting. This segment conveys trust, safety, and resolution.
+SETTING: Hospital interior. Clean, professional, calm. The hallway (Panel 1) reflects a real Taiwanese public hospital aesthetic — warm wood-tone linoleum floor with colored wayfinding stripes, recessed fluorescent panel ceiling, pale institutional walls. The consultation room (Panels 2–9) maintains the same warm-neutral institutional quality — same lighting temperature, same color palette — for visual consistency. This segment conveys trust, safety, and resolution.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Wide, hospital corridor: clean hospital hallway, directional movement.
+Panel 1 — Wide, hospital corridor: wide Taiwanese public hospital hallway — polished warm wood-tone linoleum floor with colored wayfinding floor stripes (blue and yellow lines running lengthwise along the floor), recessed fluorescent panel ceiling lights, pale off-white institutional walls. Background populated with masked patients and hospital staff in natural motion. Male protagonist (masked, same character as SB-16/17) walks through mid-frame with purposeful, composed stride. Functional, lived-in, real — not sterile minimalist pastel.
 Panel 2 — Medium: patient waiting outside a consultation room, seated.
 Panel 3 — Wide, consultation room: patient and doctor visible seated across a desk. Clean professional environment.
 Panel 4 — Medium: patient explaining, gesturing with hands, making themselves understood.
@@ -930,17 +933,17 @@ orange-black striped fur. Maintain exact consistency with reference image.  Rema
 SETTING: Same storage room. Progressive visual transformation from cluttered/dim to clean/bright. Same camera angle maintained throughout. Tiger Expert never moves — he is the anchor.
 
 PANEL DESCRIPTIONS:
-Panel 1 — Wide, static: Tiger Expert in center, room still dim and cluttered. Starting point of transformation.
-Panel 2 — Wide, static: first subtle light change — room slightly brighter, Tiger unchanged.
-Panel 3 — Wide, static: cardboard boxes in background beginning to fade/dissolve visually. Tiger stationary.
-Panel 4 — Wide, static: more clutter fading, floor becoming partially visible. Tiger unchanged.
-Panel 5 — Wide, static: dramatic mid-point — half the clutter gone, light increasing. The room mid-transformation.
-Panel 6 — Wide, static: light dramatically brightening, most clutter gone. Tiger standing proud.
-Panel 7 — Wide, static: nearly complete transformation. Room almost fully clean and bright.
-Panel 8 — Wide, static: complete transformation — clean floor, organized space, warm bright light. Tiger in center, proud.
-Panel 9 — Wide, static: FINAL REVEAL. Tiger Expert standing tall in a fully bright, clean, beautiful storage room. Emotional climax of the film.
+Panel 1 — Wide, static: CONTINUATION FROM SB-19 LAST FRAME. Tiger Expert standing in center of the still-cluttered storage room. Intense warm golden glow radiating from beneath his feet, flooding the floor and lower walls. Room still messy/dark beyond the glow. Matches reference last frame exactly.
+Panel 2 — Wide, static: Golden glow beginning to fade and absorb upward into the room. Tiger stationary. Cluttered room visible as glow softens.
+Panel 3 — Wide, static: Glow fully dissipated. Room dim and cluttered — reset to base state. Tiger in center. Transformation is about to begin.
+Panel 4 — Wide, static: First subtle light change — room slightly brighter from above. Clutter unchanged. Tiger stationary.
+Panel 5 — Wide, static: Cardboard boxes in background beginning to fade/dissolve visually. Floor slightly more visible. Tiger unchanged.
+Panel 6 — Wide, static: Dramatic mid-point — half the clutter gone, light increasing significantly. Room mid-transformation.
+Panel 7 — Wide, static: Light dramatically brightening, most clutter gone. Tiger standing proud.
+Panel 8 — Wide, static: Nearly complete transformation. Room almost fully clean and bright. Tiger in center, confident.
+Panel 9 — Wide, static: FINAL REVEAL. Tiger Expert standing tall in a fully bright, clean, beautiful storage room. Complete transformation. Emotional climax.
 
-STYLE: Progressive color transformation — cold gray-green transitioning to warm bright white. Tiger Expert visually anchors the transformation. Cinematic and dramatic. No text.
+STYLE: Opens with warm golden glow (SB-19 continuation) → glow fades → cold neutral reset → progressive transformation to warm bright white. Tiger Expert stationary throughout, visually anchoring every phase. Cinematic and dramatic. No text.
 Output as a single 16:9 image.
 ```
 
@@ -975,24 +978,25 @@ Output as a single 16:9 image.
 ### SB-22 Prompt｜Scene 6：Tiger 追老鼠喜劇收尾
 
 ```
-Create a single 16:9 storyboard image divided into a 3×3 grid of 9 equal panels. Label each panel with a small bold number (1–9) in the top-left corner against a white chip background. No other text anywhere.
+Create a single cinematic storyboard image with 9 panels arranged in a 3×3 grid. Aspect ratio: 16:9. Number each panel 1–9 in the top-left corner.
 
-CHARACTER — Tiger Expert: anthropomorphic tiger standing upright on two legs. White lab coat (buttoned, lapels, white collar). Bright orange fur with bold black tiger stripes on face and arms. Amber-golden eyes. Broad shoulders, human-proportioned body. Semi-realistic style — not cartoonish, closer to high-quality 3D film character art.
-CHARACTER — Mouse: tiny gray mouse, large round cartoon eyes, plump comical body, small round ears. Scale is much smaller than Tiger Expert — barely ankle-height.
+CHARACTER: Tiger Expert — anthropomorphic tiger, white lab coat, orange-black striped fur, amber-golden eyes. Maintain exact consistency with SB-21. Semi-realistic 3D film quality — no cartoon exaggeration of facial features or body proportions.
+CHARACTER: Mouse — small gray mouse, realistic proportions, natural posture. Scale is much smaller than Tiger Expert. Not cartoonish.
 
-SETTING: Bright modern veterinary clinic interior. White walls, blue-trim shelves with supplies, a plant in the corner, warm overhead lighting. Wide framing, cheerful and clean.
+SETTING: Same bright, clean room from SB-21. Warm overhead light, clean walls, organized shelves in background. Continuous visual tone from SB-21.
 
-PANEL 1 — Wide shot, static. Tiger Expert stands upright at room center, relaxed posture, arms loosely at sides, slight smile. Room is calm and empty behind him.
-PANEL 2 — Wide shot, low angle (camera at floor level). Same room, Tiger Expert visible in background standing still. In the extreme bottom-right corner of the frame, a tiny blur of gray movement — barely visible, just a hint.
-PANEL 3 — Wide shot, low angle. A small gray mouse has fully entered the frame from the bottom-right corner. It freezes mid-scurry, eyes wide, looking up. Tiger Expert in background has turned his head toward it.
-PANEL 4 — Extreme close-up on Tiger Expert's face only. His eyes are HUGE and round — maximum comedic shock expression. Pupils tiny, eyebrows high, mouth slightly open. Pure cartoon double-take face.
-PANEL 5 — Wide shot. Tiger Expert in a full exaggerated hunting crouch: knees bent, torso forward, both hands spread low in front of him, tail raised. His entire body posture screams "HUNT MODE." Eyes locked on the mouse.
-PANEL 6 — Wide shot. The mouse is spinning on its heels to flee (shown mid-turn, tiny legs a blur). Tiger Expert is leaning far forward into a sprinting launch position, one foot off the ground, coat beginning to flap behind him.
-PANEL 7 — Wide shot. Full energetic pursuit: Tiger Expert mid-stride in a dramatic running pose — arms pumping, coat flying, teeth slightly showing in a grin. Mouse visible ahead of him, legs a blur, running flat-out.
-PANEL 8 — Wide shot. Both characters have reached the right side of the frame. Mouse is halfway off-screen right. Tiger Expert right behind, arm outstretched reaching toward the mouse, nearly off-screen too. Tremendous energy and motion blur on both.
-PANEL 9 — Wide shot, static. The room is completely empty. No characters. Bright clean clinic, shelves, plant, warm light — perfectly peaceful, as if nothing happened. Hold.
+PANEL 1 — Medium, facing camera: Tiger Expert in the same warm bright room from SB-21, finishing his last thought, warm expression settling into calm quiet. Natural hold — the speech is just over.
+PANEL 2 — Wide, static: Tiger Expert standing still, the room peaceful. In the far bottom corner, a tiny gray shape moves barely into frame — subtle, almost unnoticed.
+PANEL 3 — Wide, low angle: a small mouse has crept fully into the frame near the baseboard. It pauses, looking up. Tiger Expert in the background has turned his head toward it — a quiet double-take, naturalistic.
+PANEL 4 — Medium close-up: Tiger Expert's face. A subtle shift — the warm expert expression freezing into instinctive alertness. Eyes sharpen, posture stiffens slightly. Genuine reaction, not exaggerated.
+PANEL 5 — Wide shot: Tiger Expert has lowered his center of gravity — knees slightly bent, weight forward, shoulders pulling back. An instinctive predatory stillness. Coat still, body coiled. Eyes fixed on the mouse.
+PANEL 6 — Wide shot: The mouse turns and begins to run. Tiger Expert leans forward, one foot lifting — the moment before the sprint. Motion just beginning. Coat hem shifting.
+PANEL 7 — Wide shot: Tiger Expert in full stride — a cinematic running pose, coat flowing behind him, expression focused and intent. The mouse ahead of him, low and fast along the floor.
+PANEL 8 — Wide shot: Both near the edge of the frame. Tiger Expert's arm outstretched, nearly reaching the mouse. Both almost off-screen. A single frozen beat of pure instinct.
+PANEL 9 — Wide, static: The room is completely empty. Warm light, clean shelves, plant in the corner. Still and peaceful — as if the entire moment never happened. Hold.
 
-STYLE: Semi-realistic 3D render style, high quality, cinematic. Warm bright cheerful lighting throughout all panels. Consistent character design across all panels. Sharp clean lines.
+STYLE: Maintain full visual continuity with SB-21 — warm cinematic lighting, semi-realistic 3D render quality, no cartoon exaggeration. Comedy comes from situation and contrast, not from distorted expressions or proportions. Clean, grounded, film-quality throughout. No text.
+Output as a single 16:9 image.
 ```
 
 ---
@@ -1188,17 +1192,18 @@ TOTAL: 10 seconds.
 ### Seedance SB-09｜步驟 5–6：擦拭封袋 + 棄置手套（9s）
 
 ```
-Instructional: wiping disinfected area with paper towel, sealing in a bag, beginning glove removal. 9 seconds. Reference @image1. Gloved hands only.
+Instructional: wiping disinfected area with paper towel, placing in bag (bag stays open), removing gloves and placing them in the same open bag. 9 seconds. Reference @image1. Gloved hands only until Panel 7.
+NOTE: The bag is NOT sealed during this clip — sealing happens in SB-10.
 
 [0-1s] Close-up downward: white paper towel approaching the disinfected surface.
 [1-2s] Close-up: wiping motion — thorough, directional.
 [2-3s] Close-up: continued wiping, surface being cleaned.
-[3-4s] Close-up: contaminated towel being placed into a clear plastic bag.
-[4-5s] Close-up: additional material added to bag.
-[5-6s] Close-up: bag knotted and tied shut firmly.
-[6-7s] Close-up: bag set aside. Beginning glove removal — hand gripping the wrist of other glove.
-[7-8s] Close-up: first glove peeled off inside-out.
-[8-9s] Close-up: removed glove dropped into the sealed bag.
+[3-4s] Close-up: contaminated towel being placed into a clear plastic bag. Bag mouth remains OPEN.
+[4-5s] Close-up: bag set aside with its mouth OPEN. Gloved hands visible. Bag is waiting — not tied, not sealed.
+[5-6s] Close-up: glove removal begins — one gloved hand gripping the wrist cuff of the other glove, starting to peel.
+[6-7s] Close-up: first glove peeled off inside-out. ONE hand now BARE (human skin, no rubber). Other hand still gloved in yellow.
+[7-8s] Close-up: first glove (inside-out) placed into the still-OPEN bag. One bare hand, one yellow-gloved hand.
+[8-9s] Close-up: bare hand hooking under the edge of the remaining yellow glove, beginning second removal. Open bag visible nearby.
 
 CAMERA: Static close-up and downward angle throughout. Shallow depth.
 COLOR: Clinical white-blue. Sharp hand focus, soft background.
@@ -1211,9 +1216,10 @@ TOTAL: 9 seconds.
 ### Seedance SB-10｜步驟 7：洗手完成（8s）
 
 ```
-Instructional: completing glove removal, then thorough handwashing. Sense of completion. 8 seconds. Reference @image1. Hands only.
+Instructional: completing glove removal, sealing the bag for the first time, then thorough handwashing. Sense of completion. 8 seconds. Reference @image1. Hands only.
+NOTE: The plastic bag is NOT pre-sealed — this clip shows the FIRST and only sealing of the bag, after both gloves are inside.
 
-[0-1s] Close-up: second YELLOW rubber glove peeled off inside-out — one bare human hand removing the yellow glove from the other hand. Removed yellow glove placed into sealed bag. Bag re-sealed. Both hands now bare after this moment.
+[0-1s] Close-up: second YELLOW rubber glove peeled off inside-out — one bare human hand removing the yellow glove from the other hand. Removed yellow glove placed into the still-OPEN bag (which contains the used towels and the first glove). Bag then tied shut firmly for the FIRST time. Both hands now completely bare.
 [1-2s] Medium: movement toward a clean bright bathroom sink.
 [2-3s] Medium close-up: tap turned on, water flowing.
 [3-4s] Medium close-up: hands under running water, beginning rinse.
@@ -1320,18 +1326,23 @@ TOTAL: 7 seconds.
 ### Seedance SB-15｜B-3 After：整潔儲藏室 + Section C 引言轉場（8s）
 
 ```
-Storage room After state fully revealed, then transitioning to a sick person at home. 8 seconds. Reference @image1.
+Storage room After state fully revealed across 4 shots, then transitioning to a sick man at home. 8 seconds. Reference @image1.
 
-[0-2s] Wide static: storage room After — same exact angle as Before. Floor clean, shelves organized, bright warm light. Powerful visual contrast. Hold 2 seconds.
-[2-3s] Wide static: same angle, emphasizing clean and open space.
-[3-4s] Wide static: warm bright full room, organized. Emotional peak of Before/After.
-[4-5s] Wide, transitional: camera shifting toward living room. Atmosphere shifts slightly muted.
-[5-6s] Wide living room: person visible on couch in background. Warm but desaturated.
-[6-7s] Medium living room: person on couch, hunched, discomfort. Family member visible in background, worried.
-[7-8s] Medium static: sick person on couch, pale, hand on stomach or forehead. Mood shift to concern.
+CHARACTERS:
+- MALE (Lin Bo-Hao, 35): gray henley long-sleeve shirt, dark navy slim pants, short black hair. SICK — pale, hunched, hand on stomach.
+- FEMALE (Lin Shu-Ting, 34): beige/cream chunky knit cardigan, gray loose jogger pants, medium-length hair loosely tied. WORRIED — standing, concerned.
 
-CAMERA: Static wide for storage room. Transition to medium for sick person.
-COLOR: Warm bright → warm desaturated as scene shifts to illness.
+[0-1s] Wide static: storage room — two tall bookshelves flanking both sides, window centered in background, warm light, files and folders neatly organized on shelves, clean wooden floor.
+[1-2s] Wide static: same storage room angle — slightly more open and airy, window light prominent, cleaner and emptier feel.
+[2-3s] Medium-wide static: right-side shelves in focus — beige and tan storage boxes neatly stacked, organized, warm side lighting.
+[3-4s] Wide static: full storage room — bookshelf on left, smaller shelving unit on right, small plant in corner, warm window light fills the room. Emotional peak of After state.
+[4-5s] Wide transitional: POV from hallway/doorway looking into living room — FEMALE (Lin Shu-Ting) standing in center middle-distance, beige cardigan, gray pants, facing inward. Atmosphere subtly shifts.
+[5-6s] Wide living room: MALE (Lin Bo-Hao) sitting alone on couch — gray henley shirt, dark pants, slightly slumped. Coffee table in front, window in background, warm lamp on. Subdued atmosphere.
+[6-7s] Medium shot: MALE hunched forward on couch, both hands pressing on stomach/abdomen — gray henley, dark pants, face downward in pain. Floor lamp visible behind him to the right.
+[7-8s] Medium two-shot: FEMALE standing left — beige cardigan, gray pants, concerned face looking at MALE. MALE hunched right — gray henley, visibly unwell. Quiet concern.
+
+CAMERA: Static throughout. Wide for storage room, medium for characters.
+COLOR: Warm bright (storage room) → warm desaturated (living room sick scene).
 TOTAL: 8 seconds.
 ```
 
@@ -1340,19 +1351,23 @@ TOTAL: 8 seconds.
 ### Seedance SB-16｜Section C-1：感染症狀（8s）
 
 ```
-Portrayal of illness symptoms — fever, exhaustion, fear. Serious but not graphic. 8 seconds. Reference @image1.
+Portrayal of illness symptoms — stomach pain, exhaustion, fear. Serious but not graphic. 8 seconds. Reference @image1.
 
-[0-1s] Medium static: sick person on couch, hand on forehead, pale. Quiet suffering.
-[1-2s] Medium close-up: face pale, expression of pain, slight sweat on forehead.
-[2-3s] Medium close-up: hand pressed to forehead, eyes closed.
-[3-4s] Close-up: face — pale complexion, subtle sweat, eyes closed in discomfort.
-[4-5s] Body medium: curled slightly, muscle ache implied by posture.
-[5-6s] Close-up: eyes half-open, exhausted and frightened.
-[6-7s] Wide: family member in background standing, anxious, watching.
-[7-8s] Close-up: sick person's eyes open — fear and vulnerability. Heaviest moment.
+CHARACTERS:
+- MALE (Lin Bo-Hao, 35): gray henley long-sleeve shirt, dark navy slim pants, short black hair. SICK — pale, hunched forward, hand covering face or pressing stomach.
+- FEMALE (Lin Shu-Ting, 34): beige/cream chunky knit cardigan, gray loose jogger pants, medium-length hair loosely tied. WORRIED — standing or sitting nearby.
 
-CAMERA: Medium to close-up. Static.
-COLOR: Warm but significantly desaturated. Shallow depth.
+[0-1s] Medium close-up: MALE (Lin Bo-Hao) leaning forward on couch, one hand covering forehead/face — gray henley shirt, dark pants, significant distress. Continuing directly from SB-15.
+[1-2s] Medium close-up: MALE face — pale complexion, eyes shut tight, expression of sharp stomach pain.
+[2-3s] Close-up: MALE hand pressed hard against stomach/abdomen, gray henley fabric visible, body tense.
+[3-4s] Close-up: MALE face — pale, slight sweat on forehead, eyes closed, brow furrowed. Quiet suffering.
+[4-5s] Medium: MALE curled slightly forward on couch — gray henley, both arms wrapped around midsection, muscle ache implied.
+[5-6s] Close-up: MALE eyes half-open, exhausted, frightened expression.
+[6-7s] Medium wide: FEMALE (Lin Shu-Ting) standing in background — beige cardigan, gray pants, arms slightly raised, anxious expression watching MALE. Living room environment visible.
+[7-8s] Close-up: MALE eyes fully open — fear and vulnerability, pale face. Heaviest emotional moment. Implies need for medical help.
+
+CAMERA: Medium to close-up. All static.
+COLOR: Warm but significantly desaturated. Shallow depth of field on close-ups.
 MOOD: Serious, emotional. Not sensational or graphic.
 TOTAL: 8 seconds.
 ```
@@ -1362,20 +1377,20 @@ TOTAL: 8 seconds.
 ### Seedance SB-17｜Section C-2：就醫決定 + 醫院外景（8s）
 
 ```
-Decision to seek medical help, traveling to hospital emergency entrance. 8 seconds. Reference @image1.
+A visibly ill man deciding to seek medical help, traveling from home to a specific hospital. 8 seconds. Reference @image1 for character consistency.
 
-[0-1s] Close-up table: smartphone on table, hand beginning to reach toward it.
+[0-1s] Close-up table: smartphone on table, a weak hand beginning to reach toward it.
 [1-2s] Hand close-up: hand grasping phone, screen activating.
-[2-3s] Medium close-up: phone being used — calling. Determined expression.
-[3-4s] Medium: person standing up, purposeful movement.
-[4-5s] Medium: walking toward a door, confident stride, decision made.
-[5-6s] Wide exterior: hospital emergency entrance building facade. Daytime.
-[6-7s] Wide exterior: approaching automatic emergency doors.
-[7-8s] Wide entrance: automatic doors opening, warm interior light visible. Person stepping through.
+[2-3s] Medium close-up: phone to ear — man's face visible, pale, tired, feverish but resolved.
+[3-4s] Medium: person standing up with effort, bracing on furniture, body visibly weak.
+[4-5s] Medium: walking toward a door, slightly hunched, one hand on wall, moving despite illness.
+[5-6s] Wide exterior: large concrete hospital arch gate with vehicle barrier and tree-lined entry road. Overcast sky. Person approaching on foot. Reference @image2 (804大門) for gate architecture.
+[6-7s] Wide exterior: person walking along the tree-lined road past the gate, modern multi-story hospital building with gray-white facade and abstract metal sculpture becoming visible ahead. Reference @image3 (804ER) for building architecture.
+[7-8s] Wide entrance: person approaching the ER building entrance, abstract stainless steel sculpture to the side, automatic glass doors ahead. Person steps through, slightly hunched but determined.
 
-CAMERA: Close → medium → wide exterior. Natural progression.
-COLOR: Warm domestic interior → neutral institutional exterior daylight.
-MOOD: Determination, action, resolution emerging.
+CAMERA: Close → medium → wide exterior. Natural spatial progression from home interior to hospital campus.
+COLOR: Warm dim domestic interior → cool overcast institutional exterior.
+MOOD: Physical illness and discomfort, but forward determination to seek help.
 TOTAL: 8 seconds.
 ```
 
@@ -1385,17 +1400,18 @@ TOTAL: 8 seconds.
 
 ```
 Hospital consultation — patient and doctor in a professional, trustworthy environment. 7 seconds. Reference @image1.
+CHARACTER: All human figures wear surgical face masks throughout — patient, doctor, background staff.
 
-[0-1s] Wide hospital corridor: clean, directional movement toward consultation.
-[1-2s] Medium: patient seated outside a consultation room, waiting.
-[2-3s] Wide consultation room: patient and doctor seated across a desk. Clean professional.
-[3-4s] Medium: patient explaining with hand gestures, communicating clearly.
-[4-5s] Over-shoulder: doctor's POV, patient speaking, doctor listening attentively.
-[5-6s] Medium close-up, doctor: attentive, nodding, taking notes. Trust and professionalism.
+[0-1s] Wide hospital corridor: polished warm wood-tone linoleum floor with blue and yellow wayfinding stripes running lengthwise, recessed fluorescent panel ceiling, pale institutional walls. Background masked patients and staff in motion. Male protagonist (masked, same as SB-16/17) moving through with composed purpose toward consultation.
+[1-2s] Medium: patient (masked) seated outside a consultation room door, waiting.
+[2-3s] Wide consultation room: patient and doctor (both masked) seated across a desk. Same warm-neutral institutional tone as the hallway — clean, professional, continuous.
+[3-4s] Medium: patient explaining with hand gestures, communicating clearly. Mask on.
+[4-5s] Over-shoulder: doctor's POV, patient speaking, doctor listening attentively. Both masked.
+[5-6s] Medium close-up, doctor: attentive, nodding, taking notes. Trust and professionalism. Mask below eyes.
 [6-7s] Medium, both: doctor summarizing, patient understanding. Resolution established. The problem is being handled.
 
 CAMERA: Wide → medium → close for emotional progression.
-COLOR: Warm-neutral institutional. Clean and professional.
+COLOR: Warm-neutral institutional. Consistent palette from hallway through consultation room — same warm linoleum tones, same fluorescent warmth.
 MOOD: Trust, safety, resolution. The situation is handled.
 TOTAL: 7 seconds.
 ```
@@ -1441,6 +1457,28 @@ CHARACTER: Tiger Expert — stationary center. Room transforms AROUND him. He ne
 CAMERA: Static wide throughout. Same angle as all previous storage room shots.
 VISUAL EFFECT: Dissolve/fade transformation — clutter disappears progressively. Room brightens progressively.
 COLOR: Cold gray-green → warm bright white over the full 7 seconds.
+TOTAL: 7 seconds.
+```
+
+---
+
+### Seedance SB-20B｜Scene 4：聖光 Zoom Out 大揭露（7s）
+
+```
+Divine light floods the storage room as the camera slowly pulls back — a sacred reveal. 7 seconds. Reference @video1 (SB-19 generated video, final seconds). Reference @image1 (Tiger Expert character).
+CHARACTER: Tiger Expert — stationary center throughout. Never moves. The camera and light move around him.
+
+[0-1s] Medium wide static: Tiger Expert in center, warm golden glow from SB-19 still active — directly continuing from previous clip. Room still cluttered. Glow radiating from beneath Tiger.
+[1-2s] Medium wide: Golden glow intensifies — begins expanding upward, no longer just floor-level. Light brightening. Room clutter still visible but now bathed in warm gold.
+[2-3s] ZOOM OUT begins — camera slowly pulls back. As it pulls, divine white-gold light starts washing in from above. Clutter begins dissolving at the edges of the frame.
+[3-4s] Zoom out continues — wider view reveals more of the room. Holy light floods the upper half of the frame. Background clutter rapidly fading. Floor becomes clean and visible.
+[4-5s] Zoom out more pronounced — room now visibly wider and taller. Sacred white light overwhelming the golden glow. Room more than half clean and bright.
+[5-6s] Zoom out near complete — full wide angle. Room almost entirely bright and clean. Tiger Expert now appears smaller in the center, surrounded by vast clean luminous space.
+[6-7s] FINAL WIDE REVEAL: Camera fully pulled back. Tiger Expert stands small but commanding in the center of a fully bright, clean, beautiful storage room. Holy light radiates throughout the entire space. Triumphant.
+
+CAMERA: Starts medium wide, begins slow zoom out at [2-3s], continuous smooth pullback through end. Final frame is significantly wider than opening.
+VISUAL EFFECT: Golden floor glow → divine white-gold light flooding from above → clutter dissolves progressively as light washes over it. Clean bright surfaces revealed as zoom out expands the frame.
+COLOR: Warm golden → sacred white-gold. Background dark cluttered → bright luminous clean. Tiger Expert remains constant anchor.
 TOTAL: 7 seconds.
 ```
 
@@ -1497,12 +1535,12 @@ VIDEO ACTION (single continuous take, smooth motion):
 
 [5.5–7.0s] Full-speed chase across the room. Tiger Expert running in long energetic strides, coat flying, expression gleeful and focused. Mouse at full sprint ahead of him, legs a tiny blur. Both crossing the full width of the room toward the right side of frame.
 
-[7.0–8.0s] Both characters exit frame right — Tiger Expert's reaching hand is the last thing to disappear. The room holds completely empty, bright, and peaceful. Slow gentle fade to black.
+[7.0–8.0s] TRACKING SHOT: camera pivots and follows both characters as they run — a long-lens tracking pan, staying locked on Tiger Expert and the mouse. Background walls and shelves fall into soft blur (shallow depth of field). The two figures remain sharp and in focus as the camera swings with them. Tiger Expert's outstretched arm fills the right edge of frame. Hold on the blur-framed chase for a beat, then cut or fade.
 
-MOTION QUALITY: Fluid 3D animation. Exaggerated but not slapstick — think high-quality animated film (not rubber-hose cartoon). Fast acceleration, expressive body arcs, coat has fabric physics.
-CAMERA: Wide static throughout. Absolutely no camera movement, pan, or zoom.
+MOTION QUALITY: Fluid 3D animation. Not slapstick — think high-quality animated film. Fast acceleration, expressive body arcs, coat has fabric physics.
+CAMERA: Wide static [0–7.0s]. At [7.0s]: smooth pivot into a long-lens tracking pan that follows both characters — background falls into bokeh blur, subjects remain sharp. Feels like a cinematographer swinging a telephoto lens to follow fast-moving subjects.
 LIGHTING: Consistent warm bright white throughout. No color or mood change.
-PACING: Slow build [0–3.5s] → explosive action [3.5–7s] → peaceful empty hold [7–8s].
+PACING: Slow build [0–3.5s] → explosive action [3.5–7s] → dynamic tracking close [7–8s].
 ```
 
 ---
